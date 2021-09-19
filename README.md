@@ -149,7 +149,7 @@ La figure 10 montre un exemple de modèle MNT sous forme de matrice de deux dime
 La distance plate entre deux sommets ![][1] et ![][2] de la carte est calculée en utilisant la distance euclidienne 2D, selon la formule suivante :
 
 <p align="center">
-  <img src=https://latex.codecogs.com/svg.latex?distanceEuclidienne\left(%20{{S_i},{S_j}}%20\right)%20=%20\sqrt%20{{{\left(%20{{X_i}%20%20{X_j}}%20\right)}^2}%20+%20{{\left(%20{{Y_i}%20-%20{Y_j}}%20\right)}^2}}%20>
+  <img src=https://latex.codecogs.com/svg.latex?distanceEuclidienne\left(%20{{S_i},{S_j}}%20\right)%20=%20\sqrt%20{{{\left(%20{{X_i}%20-%20{X_j}}%20\right)}^2}%20+%20{{\left(%20{{Y_i}%20-%20{Y_j}}%20\right)}^2}}%20>
 </p>
 
 <p align='justify'> Cette distance ne représente pas la distance réelle parce qu’elle ne considère pas l’altitude. En effet la distance réelle est une distance à 3 dimensions qui augmente de valeur avec l’altitude (voir figure 11). 
