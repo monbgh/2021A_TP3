@@ -273,7 +273,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 
 <dl>
   <dt>3.1.4. noeudsVoisins(matrice, nœud):</dt>
-  <dd><p align='justify'>Cherche les nœud voisin et leur poids par rapport à un nœud initial. Les nœud voisin ont un poids différent de -1 dans la matrice d’adjacence.</p></dd>
+  <dd><p align='justify'>Cherche les nœuds voisins et leur poids par rapport à un nœud initial. Les nœuds voisins ont un poids différent de -1 dans la matrice d’adjacence.</p></dd>
   <dd><b>Paramètres:</b></dd>
 		<ol><ul>
 			<li><b>Matrice[mxn]</b>: Matrice d’adjacence.</li>
@@ -298,8 +298,8 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 
 <dl>
   <dt>3.1.5. dijkstra (matrice, depart, arrive):</dt>
-  <dd><p align='justify'>Calcule le plus court chemin entre un nœud de départ et un nœud d’arrivée. Retourne la distance (poids total entre le chemin entre deux nœud) entre le 
-		nœud de départ et le nœud d’arrivée. Retourne aussi le vecteur de prédécesseur qui indique le nœuds précédent pour se rendre au nœud de départ.</p></dd>
+  <dd><p align='justify'>Calcule le plus court chemin entre un nœud de départ et un nœud d’arrivée. Retourne la distance (poids total entre le chemin entre deux nœuds) entre le 
+		nœud de départ et le nœud d’arrivée. Retourne aussi le vecteur de prédécesseur qui indique le nœud précédent pour se rendre au nœud de départ.</p></dd>
   <dd><b>Paramètres:</b></dd>
 		<ol><ul>
 			<li><b>Matrice[mxn]</b>: Matrice d’adjacence.</li>
@@ -509,7 +509,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 
 <dl>
   <dt>3.3.1. saisirMatrice():</dt>
-  <dd><p align='justify'>Saisit une matrice d’adjacence au clavier. Saisit le nombre de noeuds et le nombre de poids à avoir. Pour chaque poids, saisit le deux noeuds de chaque extrémité et saisit ensuite le poids.</p></dd>
+  <dd><p align='justify'>Saisit une matrice d’adjacence au clavier. Saisis le nombre de noeuds et le nombre de poids à avoir. Pour chaque poids, saisit le deux noeuds de chaque extrémité et saisit ensuite le poids.</p></dd>
 	<dd><b>Renvoie:</b></dd>
 		<ol><ul>
 			<li><b>matrice[mxn]</b>: matrice d’adjacence saisit au clavier.</li>
@@ -572,7 +572,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 </dl>
 
 
-### 3.4. Module principale <a name="principale"></a> 
+### 3.4. Module principal <a name="principale"></a> 
 
 <dl>
   <dt>3.4.1. meilleurCheminDijkstra():</dt>
