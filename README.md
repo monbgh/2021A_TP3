@@ -213,9 +213,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 </dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-<dl>
-	<dd><b>Example:</b></dd>
-</dl> 
+
 
 <dl>
   <dt> 3.1.2. noeudMinimalNonVisitesDeNoeud(matrice, nœud, noeudsVisites):</dt>
@@ -240,9 +238,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 </dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-<dl>
-	<dd><b>Example:</b></dd>
-</dl>
+
 
 <dl>
   <dt>3.1.3. noeudMinimalNonVisites(matrice, noeudsVisites):</dt>
@@ -267,9 +263,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 </dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-<dl>
-	<dd><b>Example:</b></dd>
-</dl> 
+
 
 <dl>
   <dt>3.1.4. noeudsVoisins(matrice, nœud):</dt>
@@ -292,9 +286,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 </dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-<dl>
-	<dd><b>Example:</b></dd>
-</dl>
+
 
 <dl>
   <dt>3.1.5. dijkstra (matrice, depart, arrive):</dt>
@@ -320,9 +312,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 </dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-<dl>
-	<dd><b>Example:</b></dd>
-</dl> 
+
 
   
 ### 3.2. Module carte:<a name="carte"></a>
@@ -347,9 +337,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 </dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-<dl>
-	<dd><b>Example:</b></dd>
-</dl>
+
 
 
 <dl>
@@ -372,9 +360,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 </dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-<dl>
-	<dd><b>Example:</b></dd>
-</dl>
+
 
 <dl>
   <dt>3.2.3. estVoisin(sommet1,  sommet2):</dt>
@@ -396,9 +382,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 </dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-<dl>
-	<dd><b>Example:</b></dd>
-</dl>
+
 
 <dl>
   <dt>3.2.3. matriceAdjacence(sommets):</dt>
@@ -419,9 +403,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 </dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-<dl>
-	<dd><b>Example:</b></dd>
-</dl>
+
 
 <dl>
   <dt>3.2.5. carteEnSommets(carteTopographique):</dt>
@@ -448,9 +430,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 </dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-<dl>
-	<dd><b>Example:</b></dd>
-</dl>
+
 
 
 <dl>
@@ -472,9 +452,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 </dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-<dl>
-	<dd><b>Example:</b></dd>
-</dl>
+
 
 
 <dl>
@@ -501,9 +479,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 </dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-<dl>
-	<dd><b>Example:</b></dd>
-</dl>
+
 
 ### 3.3. Module interface<a name="interface"></a> 
 
@@ -523,9 +499,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 </dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-<dl>
-	<dd><b>Example:</b></dd>
-</dl>
+
 
 <dl>
   <dt>3.3.2. genereMatriceAleatoire(nNoeuds):</dt>
@@ -546,9 +520,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 </dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-<dl>
-	<dd><b>Example:</b></dd>
-</dl>
+
 
 <dl>
   <dt>3.3.3. afficheChemin(predecesseurs, depart, arrive):</dt>
@@ -567,9 +539,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 </dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-<dl>
-	<dd><b>Example:</b></dd>
-</dl>
+
 
 
 ### 3.4. Module principal <a name="principale"></a> 
@@ -590,11 +560,9 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 </dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-<dl>
-	<dd><b>Example:</b></dd>
-</dl>
 
-## 5. Barème /30 <a name="bareme"></a>
+
+## 4. Barème /30 <a name="bareme"></a>
 
 |**Nom des fonctions**|**Nombre de points attribuer**|
 | :- | :- |
