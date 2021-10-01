@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/fr/e/e6/Logo_Polytechnique_Montr%C3%A9al_%28partenariat_Wikim%C3%A9dia%29.png" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Polytechnique_Montr%C3%A9al_logo.jpg" />
 </p>
 
 # TP3: Fonctions, lecture et écriture de fichiers
