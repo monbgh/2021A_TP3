@@ -205,12 +205,10 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 			<li><b>indice[1x1]</b>: l’indice de la case minimum.</li>
 			<li><b>minim[1x1]</b>: la valeur minimum du vecteur.</li>
   	</ul></ol>
+		<dd><p align='justify'><code> <b>Note:</b> Valide que vec est une liste de valeurs numériques plus grandes ou égales à -1s.</code></p></dd>
+
 </dl>	
 
--------------------------------------------------------------------------------------------------------------------------------------------------------	
-<dl>
-	<dd><p align='justify'><code> <b>Note:</b> Valide que vec est une liste de valeurs numériques plus grandes ou égales à -1s.</code></p></dd>
-</dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -230,12 +228,10 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 			<li><b>nœuds[1x1]</b>: Noeud voisin avec la distance minimum.</li>
 			<li><b>poids[1x1]</b>: Poids du nœud voisin avec la distance minimum.</li>
   	</ul></ol>
-</dl>	
-
--------------------------------------------------------------------------------------------------------------------------------------------------------	
-<dl>
 	<dd><p align='justify'><code> <b>Note:</b> Valide que la matrice est carrée et que les valeurs sont plus grandes ou égales à -1. Valide que le nœud est un entier positif 			scalaire. Valide que les nœuds visités est un vecteur de nombres entiers positifs. Valide que le nœud fait partie des nœuds visités.</code></p></dd>
 </dl>	
+
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -254,13 +250,10 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 			<li><b>depart[1x1]</b>: le nœud visité.</li>
 			<li><b>arrive[1x1]</b>: le nœuds ayant le plus petit poids avec le nœud de départ.</li>
   	</ul></ol>
-</dl>	
-
--------------------------------------------------------------------------------------------------------------------------------------------------------	
-<dl>
-	<dd><p align='justify'><code> <b>Note:</b> Valide que la matrice est carrée et que les valeurs sont plus grandes ou égales à -1. Valide que les nœuds visités est un 
+		<dd><p align='justify'><code> <b>Note:</b> Valide que la matrice est carrée et que les valeurs sont plus grandes ou égales à -1. Valide que les nœuds visités est un 
 		vecteur de nombres entiers positifs..</code></p></dd>
 </dl>	
+
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -278,16 +271,12 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 			<li><b>noeuds[1xn]</b>: Vecteur des nœuds voisins.</li>
 			<li><b>poids[1xn]</b>: Vecteur des poids des nœuds voisins.</li>
   	</ul></ol>
-</dl>	
-
--------------------------------------------------------------------------------------------------------------------------------------------------------	
-<dl>
 	<dd><p align='justify'><code> <b>Note:</b> Valide que la matrice est carrée et de valeurs plus grande ou égale à -1. Valide que le nœud initial est une entier positif scalaire. </code></p></dd>
 </dl>	
 
+
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
 <dl>
   <dt>3.1.5. dijkstra (matrice, depart, arrive):</dt>
   <dd><p align='justify'>Calcule le plus court chemin entre un nœud de départ et un nœud d’arrivée. Retourne la distance (poids total entre le chemin entre deux nœuds) entre le 
@@ -303,23 +292,19 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 			<li><b>distance[1x1]</b>: la somme des poids entre le nœud de départ et l’arrivé.</li>
 			<li><b>predecesseur[1xn]</b>: vecteur des nœuds précédent pour se rendre au départ.</li>
   	</ul></ol>
-</dl>	
-
--------------------------------------------------------------------------------------------------------------------------------------------------------	
-<dl>
 	<dd><p align='justify'><code> <b>Note:</b> Valider que la matrice est carrée et que ses valeurs sont plus grandes ou égales à -1. Valider que le départ et l’arrivée sont 	des entiers positifs scalaires.</code></p></dd>
 	<dd><p align='justify'><code> <b>Avertissement:</b> Faite référence à l’explication de l’algorithme de Dijkstra pour implémenter cette fonction.</code></p></dd>
 </dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-  
 ### 3.2. Module carte:<a name="carte"></a>
 
 <dl>
   <dt>3.2.1. distanceEuclidienne(sommet1, sommet2):</dt>
   <dd><p align='justify'>Calcule la distance euclidienne entre deux sommets avec l’équation suivante:</p></dd>
+<p align="center">
+  <img src=https://latex.codecogs.com/svg.latex?distanceEuclidienne\left(%20{{S_i},{S_j}}%20\right)%20=%20\sqrt%20{{{\left(%20{{X_i}%20-%20{X_j}}%20\right)}^2}%20+%20{{\left(%20{{Y_i}%20-%20{Y_j}}%20\right)}^2}}%20>
+</p>
   <dd><b>Paramètres:</b></dd>
 		<ol><ul>
 			<li><b>sommet1[1x1 dictionnaire]</b>: Le premier sommet.</li>
@@ -329,20 +314,18 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 		<ol><ul>
 			<li><b>distance[1x1]</b>:La distance euclidienne entre les deux sommets.</li>
   	</ul></ol>
+<dd><p align='justify'><code> <b>Note:</b>  Valide que les deux sommets sont des dictionnaires de sommet. </code></p></dd>
 </dl>	
 
--------------------------------------------------------------------------------------------------------------------------------------------------------	
-<dl>
-	<dd><p align='justify'><code> <b>Note:</b>  Valide que les deux sommets sont des dictionnaires de sommet. </code></p></dd>
-</dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
 
 <dl>
   <dt>3.2.2. distance3D(sommet1, sommet2):</dt>
   <dd><p align='justify'>Calcule la distance 3D entre deux sommets avec l’équation suivante:</p></dd>
+	<p align="center">
+  <img src= https://latex.codecogs.com/svg.latex?distance3D\left(%20{{S_i},{S_j}}%20\right)%20=%20\sqrt%20{distanceEuclidienne{{\left(%20{{S_i},{S_j}}%20\right)}^2}%20+%20{{\left(%20{altitud{e_i}%20-%20altitud{e_j}}%20\right)}^2}}
+</p>
   <dd><b>Paramètres:</b></dd>
 		<ol><ul>
 			<li><b>sommet1[1x1 dictionnaire]</b>: Le premier sommet.</li>
@@ -352,19 +335,17 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 		<ol><ul>
 			<li><b>distance[1x1]</b>:La distance 3D entre les deux sommets.</li>
   	</ul></ol>
+<dd><p align='justify'><code> <b>Note:</b> Valide que les deux sommets sont des dictionnaires de sommet.</code></p></dd>
 </dl>	
 
--------------------------------------------------------------------------------------------------------------------------------------------------------	
-<dl>
-	<dd><p align='justify'><code> <b>Note:</b> Valide que les deux sommets sont des dictionnaires de sommet.</code></p></dd>
-</dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
 <dl>
   <dt>3.2.3. estVoisin(sommet1,  sommet2):</dt>
   <dd><p align='justify'>Valide que deux sommets sont voisins d’après leur emplacement en x et y sur la carte topographique. Les sommets sont voisins si:</p></dd>
+	<p align="center">
+  <img src= https://latex.codecogs.com/svg.latex?\begin{array}{l}\left(%20{{X_i}%20-%20{X_j}}%20\right)%20=%200%20\;%20et%20\;%20\left(%20{{Y_i}%20-%20{Y_j}}%20\right)%20=%201%20\;%20ou\\%20\left(%20{{X_i}%20-%20{X_j}}%20\right)%20=%201%20\;%20et%20\;%20\left(%20{{Y_i}%20-%20{Y_j}}%20\right)%20=%200%20\;%20ou\\%20\left(%20{{X_i}%20-%20{X_j}}%20\right)%20=%201%20\;%20et%20\;%20\left(%20{{Y_i}%20-%20{Y_j}}%20\right)%20=%201%20\end{array}
+</p>
   <dd><b>Paramètres:</b></dd>
 		<ol><ul>
 			<li><b>sommet1[1x1 dictionnaire]</b>: Le premier sommet.</li>
@@ -374,16 +355,12 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 		<ol><ul>
 			<li><b>distance[1x1]</b>: Vrai si les sommets sont voisins. Les sommets sont voisins si leurs valeurs en x ou en y sont à maximum 1 de distance.</li>
   	</ul></ol>
-</dl>	
-
--------------------------------------------------------------------------------------------------------------------------------------------------------	
-<dl>
 	<dd><p align='justify'><code> <b>Note: Valide que le  sommet est un dictionnaire de sommet.</b> </code></p></dd>
 </dl>	
 
+
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
 <dl>
   <dt>3.2.3. matriceAdjacence(sommets):</dt>
   <dd><p align='justify'>Retourne la matrice d’adjacence à partir d’un tableau de sommets. Construis la matrice en regardant chaque voisin possible dans la liste de sommets. Les cases sans lien sont assignées à -1. Consulté la section sur la carte topographique pour plus d’information sur l’implémentation.</p></dd>
@@ -395,16 +372,11 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 		<ol><ul>
 			<li><b>Matrice[nxn]</b>: la somme des poids entre le nœud de départ et l’arrivé.</li>
   	</ul></ol>
+<dd><p align='justify'><code> <b>Note:</b> Valide que le  sommet est un dictionnaire de sommet</code></p></dd>
 </dl>	
 
--------------------------------------------------------------------------------------------------------------------------------------------------------	
-<dl>
-	<dd><p align='justify'><code> <b>Note:</b> Valide que le  sommet est un dictionnaire de sommet</code></p></dd>
-</dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
 <dl>
   <dt>3.2.5. carteEnSommets(carteTopographique):</dt>
   <dd><p align='justify'>Converti les altitudes de la carte en tableau de sommets. Les sommets sont des dictionnaire avec les cles suivantes:</p></dd>
@@ -422,17 +394,12 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 		<ol><ul>
 			<li><b>sommets[1x1 dictionnaire]</b>: dictionnaire des sommets de la carte</li>
   	</ul></ol>
-</dl>	
-
--------------------------------------------------------------------------------------------------------------------------------------------------------	
-<dl>
 	<dd><p align='justify'><code> <b>Note:</b> Valide que la carte topographique est de deux dimensions et de valeurs non négatives.</code></p></dd>
 </dl>	
 
+
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
 <dl>
   <dt>3.2.6. lireCarte(nomFichier):</dt>
   <dd><p align='justify'>Lit le fichier à partir du nom de fichier reçu en paramètre. Retourne la carte topographique lu dans le fichier.</p></dd>
@@ -444,17 +411,11 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 		<ol><ul>
 			<li><b>matrice[mxn]</b>: matrice des altitudes lut dans la carte topographique.</li>
   	</ul></ol>
+<dd><p align='justify'><code> <b>Note:</b> Valide que le nom du fichier est une chaine de caractère.</code></p></dd>
 </dl>	
 
--------------------------------------------------------------------------------------------------------------------------------------------------------	
-<dl>
-	<dd><p align='justify'><code> <b>Note:</b> Valide que le nom du fichier est une chaine de caractère.</code></p></dd>
-</dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
 <dl>
   <dt>3.2.7. chargeMatriceDeCarte(nomFichier):</dt>
   <dd><p align='justify'>Reçoit un nom de fichier et retourne la matrice d’adjacence correspondant au fichier lut. Pour se faire, la fonction va:</p></dd>
@@ -471,16 +432,10 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 		<ol><ul>
 			<li><b>matrice[mxn]</b>: matrice d’adjacence trouver à partir du fichier lu.</li>
   	</ul></ol>
-</dl>	
-
--------------------------------------------------------------------------------------------------------------------------------------------------------	
-<dl>
 	<dd><p align='justify'><code> <b>Note:</b> Valide que le nom du fichier est une chaine de caractère</code></p></dd>
 </dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
 ### 3.3. Module interface<a name="interface"></a> 
 
 <dl>
@@ -491,16 +446,10 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 			<li><b>matrice[mxn]</b>: matrice d’adjacence saisit au clavier.</li>
 			<li><b>predecesseur[1xn]</b>: vecteur des nœuds précédent pour se rendre au départ.</li>
   	</ul></ol>
-</dl>	
-
--------------------------------------------------------------------------------------------------------------------------------------------------------	
-<dl>
 	<dd><p align='justify'><code> <b>Note:</b> </code></p></dd>
 </dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
 <dl>
   <dt>3.3.2. genereMatriceAleatoire(nNoeuds):</dt>
   <dd><p align='justify'>Génère une matrice d’adjacence de manière aléatoire. Le poids maximum entre les noeuds est de 99. La matrice d’adjacence généré doit avoir en moyenne la moitié des noeuds reliés l’un envers l’autre avec un poids. Par exemple, si on génère un tableau avec 20 noeuds, chaque noeud devrait avoir en moyenne 10 poids entre d’autres noeuds. Les noeuds non reliés auront un poids de -1.</p></dd>
@@ -512,10 +461,6 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 		<ol><ul>
 			<li><b>matrice[nNoeudsxnNoeuds]</b>: matrice d’adjacence généré de manière aléatoire.</li>
   	</ul></ol>
-</dl>	
-
--------------------------------------------------------------------------------------------------------------------------------------------------------	
-<dl>
 	<dd><p align='justify'><code> <b>Note:</b> Valide que le nombre de noeuds est un entier scalaire positif.</code></p></dd>
 </dl>	
 
@@ -531,17 +476,10 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 			<li><b>depart[1x1]</b>: Le nœud de départ du chemin.</li>
 			<li><b>arrive[1x1]</b>: Le nœud d’arrivé du chemin.</li>
   	</ul></ol>
-</dl>	
-
--------------------------------------------------------------------------------------------------------------------------------------------------------	
-<dl>
 	<dd><p align='justify'><code> <b>Note:</b> Valide les prédécesseurs est un vecteur d’entier plus grand ou égal à -1 et différent de zéro. Valide que le nœud de départ et d’arrivée sont des scalaires entiers positifs.</code></p></dd>
 </dl>	
 
--------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------	
 ### 3.4. Module principal <a name="principale"></a> 
 
 <dl>
@@ -552,14 +490,8 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 			<li>Généré aléatoirement une matrice d’adjacence.</li>
 			<li>Lire une carte topographique pour construire la matrice.</li>
   	</ul></ol>
-</dl>	
-
--------------------------------------------------------------------------------------------------------------------------------------------------------	
-<dl>
 	<dd><p align='justify'><code> <b>Note:</b> Valide que le choix dans les options est valide.</code></p></dd>
 </dl>	
-
--------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 ## 4. Barème /30 <a name="bareme"></a>
