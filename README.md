@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://promptinnov.com/wp-content/uploads/2019/02/polytechnique.jpg" />
+  <img src="https://upload.wikimedia.org/wikipedia/fr/e/e6/Logo_Polytechnique_Montr%C3%A9al_%28partenariat_Wikim%C3%A9dia%29.png" />
 </p>
 
 # TP3: Fonctions, lecture et écriture de fichiers
