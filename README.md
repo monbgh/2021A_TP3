@@ -500,7 +500,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 | :- | :- |
 |*indiceMinimum*|0.5|
 |*noeudMinimalNonVisitesDeNoeud*|0.5|
-|*noeudMinimalNonVisites*|1.5|
+|*noeudMinimalNonVisites*|1|
 |*noeudsVoisins*|1|
 |*dijkstra*|2|
 |*estVoisin*|0.5|
