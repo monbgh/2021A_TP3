@@ -312,7 +312,6 @@ print(txt.format(minimum, indice))
 ```python
 matrice = [[-1, 20, 56, -1], [20, -1, 12, 17], [56, 12, -1, -1], [-1, 17, -1, -1]]
 noeud = 1
-noeudsVoisins(matrice, noeud)
 noeuds, poids = noeudsVoisins(matrice, noeud)
 txt = "les noeuds voisin sont {} et leur poids {} rapport à un noeud {}"
 print(txt.format(noeuds, poids, noeud))
