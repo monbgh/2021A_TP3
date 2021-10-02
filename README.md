@@ -12,6 +12,7 @@
 - [Modules à implémenter](#module)
   - [Module algo](#algo) 
   - [Module carte](#carte)
+  - [Module fichier](#fichier)
   - [Module interface](#interface)
   - [Module principale](#principale)
 - [Barème](#bareme)
@@ -398,10 +399,10 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 </dl>	
 
 
-
+### 3.3. Module fichier:<a name="fichier"></a> 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 <dl>
-  <dt>3.2.6. lireCarte(nomFichier):</dt>
+  <dt>3.3.1. lireCarte(nomFichier):</dt>
   <dd><p align='justify'>Lit le fichier à partir du nom de fichier reçu en paramètre. Retourne la carte topographique lu dans le fichier.</p></dd>
   <dd><b>Paramètres:</b></dd>
 		<ol><ul>
@@ -417,7 +418,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 <dl>
-  <dt>3.2.7. chargeMatriceDeCarte(nomFichier):</dt>
+  <dt>3.3.2. chargeMatriceDeCarte(nomFichier):</dt>
   <dd><p align='justify'>Reçoit un nom de fichier et retourne la matrice d’adjacence correspondant au fichier lut. Pour se faire, la fonction va:</p></dd>
 	<ol><ul>
 			<li> Lire la carte.</li>
@@ -436,10 +437,10 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 </dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
-### 3.3. Module interface<a name="interface"></a> 
+### 3.4. Module interface<a name="interface"></a> 
 
 <dl>
-  <dt>3.3.1. saisirMatrice():</dt>
+  <dt>3.4.1. saisirMatrice():</dt>
   <dd><p align='justify'>Saisit une matrice d’adjacence au clavier. Saisis le nombre de noeuds et le nombre de poids à avoir. Pour chaque poids, saisit le deux noeuds de chaque extrémité et saisit ensuite le poids.</p></dd>
 	<dd><b>Renvoie:</b></dd>
 		<ol><ul>
@@ -451,7 +452,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 <dl>
-  <dt>3.3.2. genereMatriceAleatoire(nNoeuds):</dt>
+  <dt>3.4.2. genereMatriceAleatoire(nNoeuds):</dt>
   <dd><p align='justify'>Génère une matrice d’adjacence de manière aléatoire. Le poids maximum entre les noeuds est de 99. La matrice d’adjacence généré doit avoir en moyenne la moitié des noeuds reliés l’un envers l’autre avec un poids. Par exemple, si on génère un tableau avec 20 noeuds, chaque noeud devrait avoir en moyenne 10 poids entre d’autres noeuds. Les noeuds non reliés auront un poids de -1.</p></dd>
   <dd><b>Paramètres:</b></dd>
 		<ol><ul>
@@ -468,7 +469,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 
 
 <dl>
-  <dt>3.3.3. afficheChemin(predecesseurs, depart, arrive):</dt>
+  <dt>3.4.3. afficheChemin(predecesseurs, depart, arrive):</dt>
   <dd><p align='justify'>Affiche le chemin entre un nœud de départ et d’arrivé à partir du tableau de prédécesseurs.</p></dd>
   <dd><b>Paramètres:</b></dd>
 		<ol><ul>
@@ -480,10 +481,10 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 </dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------	
-### 3.4. Module principal <a name="principale"></a> 
+### 3.5. Module principal <a name="principale"></a> 
 
 <dl>
-  <dt>3.4.1. meilleurCheminDijkstra():</dt>
+  <dt>3.5.1. meilleurCheminDijkstra():</dt>
   <dd><p align='justify'>Programme principal de l’algorithme de Dijkstra. Donne 3 options à l’utilisateur:</p></dd>
 	<ol><ul>
 			<li>Saisir une matrice manuellement.</li>
