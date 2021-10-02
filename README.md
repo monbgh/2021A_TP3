@@ -694,14 +694,14 @@ afficheChemin(predecesseurs, depart, arrive)
 
 |**Nom des fonctions**|**Nombre de points attribuer**|
 | :- | :- |
-|*indiceMinimum*|0.5|
-|*noeudMinimalNonVisitesDeNoeud*|0.5|
+|*indiceMinimum*|1|
+|*noeudMinimalNonVisitesDeNoeud*|1|
 |*noeudMinimalNonVisites*|1|
 |*noeudsVoisins*|1|
 |*dijkstra*|2|
 |*estVoisin*|0.5|
 |*distanceEuclidienne*|0.5|
-|*distance3D*|0.5|
+|*distance3D*|1|
 |*matriceAdjacence*|1.5|
 |*carteEnSommets*|1.5|
 |*lireCarte*|1.5|
@@ -709,7 +709,6 @@ afficheChemin(predecesseurs, depart, arrive)
 |*saisirMatrice*|1.5|
 |*genereMatriceAleatoire*|1.5|
 |*afficheChemin*|1.5|
-|*saveChemin*|1.5|
 |*meilleurCheminDijkstra*|1.5|
 
 ## Annexe: Guide et normes de codage <a name="annexe"></a>
