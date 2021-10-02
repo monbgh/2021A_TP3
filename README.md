@@ -518,7 +518,7 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 
 ## Annexe: Guide et normes de codage <a name="annexe"></a>
 - [Le guide maison](https://github.com/INF1007-Gabarits/Guide-codage-python) de normes supplémentaires à respecter
-- [Le plugin Pycharm Pylint](https://plugins.jetbrains.com/plugin/11084-pylint) qui analyse votre code et indique certaines erreurs. Vous avertis aussi si vous ne respectez pas certaines de normes de PEP8.
+- [Le plugin Pycharm Pylint](https://plugins.jetbrains.com/plugin/11084-pylint) qui analyse votre code et indique certaines erreurs. 
 - [Quelques indications en français sur PEP8](https://openclassrooms.com/fr/courses/4425111-perfectionnez-vous-en-python/4464230-assimilez-les-bonnes-pratiques-de-la-pep-8)
 - [La documentation PEP8 Officielle](https://www.python.org/dev/peps/pep-0008/)
 
