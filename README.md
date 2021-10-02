@@ -183,7 +183,7 @@ Par exemple, la carte de la figure 10 est transformée en une matrice d’adjace
 
 ## 3. Modules à implémenter <a name="module"></a>
 
-La figure 12 represente l'arbre des appels de fonctions à implémenter.
+La figure 12 représente l'arbre des appels de fonctions à implémenter.
 
 <p align="center">
   <img src="Img/Imp_01.png" alt>
@@ -248,7 +248,7 @@ matrice = [[-1, 20, 56, -1], [20, -1, 12, 17], [56, 12, -1, -1], [-1, 17, -1, -1
 noeud   = 1
 noeudsVisites = [1]
 indice, minimum = noeudMinimalNonVisitesDeNoeud(matrice, noeud, noeudsVisites)
-txt = "le poids minimum du noeud non visités est {} à la position {}"
+txt = "le poids minimum du noeud non visité est {} à la position {}"
 print(txt.format(minimum, indice))
 ```
 
@@ -283,11 +283,11 @@ matrice = [[-1, 20, 56, -1], [20, -1, 12, 17], [56, 12, -1, -1], [-1, 17, -1, -1
 noeud   = 1
 noeudsVisites = [1, 2, 3]
 indice, minimum = noeudMinimalNonVisitesDeNoeud(matrice, noeud, noeudsVisites)
-txt = "le poids minimum du noeud non visités est {} à la position {}"
+txt = "le poids minimum du noeud non visité est {} à la position {}"
 print(txt.format(minimum, indice))
 ```
 
-    le poids minimum du noeud non visités est 20 à la position 0
+    le poids minimum du noeud non visité est 20 à la position 0
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -486,10 +486,10 @@ print(txt.format(estVoisin(sommet1, sommet2)))
 ```python
 carteTopographique = [[12, 13], [23, 21]]
 sommets = carteEnSommets(carteTopographique)
-print("Le disctionnaire des sommets est: \n\t",sommets)
+print("Le dictionnaire des sommets est: \n\t",sommets)
 ```
 
-    Le disctionnaire des sommets est: 
+    Le dictionnaire des sommets est: 
     	 {'no': [0, 1, 2, 3], 'x': [0, 1, 0, 1], 'y': [0, 0, 1, 1], 'altitude': [12, 13, 23, 21]}
 	 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -633,7 +633,7 @@ print(txt)
 ```python
 nNoeuds = 5
 matAlea = genereMatriceAleatoire(nNoeuds)
-txt = "la matrice aleatoire est: \n\t"
+txt = "la matrice aléatoire est: \n\t"
 for i in matAlea:
     for j in i:
         txt += "{}\t".format(j)
@@ -641,7 +641,7 @@ for i in matAlea:
 print(txt)
 ```
 
-    la matrice aleatoire est: 
+    la matrice aléatoire est: 
     	22	-1	36	40	42	
     	-1	-1	-1	46	68	
     	36	-1	18	79	44	
@@ -673,7 +673,7 @@ afficheChemin(predecesseurs, depart, arrive)
 ```
 
     Le chemin à parcourir est :
-    	 DEBUT : 0  ==> 2  ==> 5  ==>  4 : FIN 
+    	 DÉBUT : 0  ==> 2  ==> 5  ==>  4 : FIN 
 	 
 -------------------------------------------------------------------------------------------------------------------------------------------------------	
 ### 3.5. Module principal <a name="principale"></a> 
