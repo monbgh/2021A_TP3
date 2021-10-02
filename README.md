@@ -210,7 +210,16 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 
 </dl>	
 
+<dd><b>Exemple:</b></dd>
 
+```python
+vec     = [-1, 4, 6, -1, -1, 3, 5]
+indice, minimum = indiceMinimum(vec)
+txt = "la valeur minimale du vecteur est {} à la position {}"
+print(txt.format(minimum, indice))
+```
+
+    la valeur minimale du vecteur et 3 à la position 5
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -232,7 +241,18 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 	<dd><p align='justify'><code> <b>Note:</b> Valide que la matrice est carrée et que les valeurs sont plus grandes ou égales à -1. Valide que le nœud est un entier positif 			scalaire. Valide que les nœuds visités est un vecteur de nombres entiers positifs. Valide que le nœud fait partie des nœuds visités.</code></p></dd>
 </dl>	
 
+<dd><b>Exemple:</b></dd>
 
+```python
+matrice = [[-1, 20, 56, -1], [20, -1, 12, 17], [56, 12, -1, -1], [-1, 17, -1, -1]]
+noeud   = 1
+noeudsVisites = [1]
+indice, minimum = noeudMinimalNonVisitesDeNoeud(matrice, noeud, noeudsVisites)
+txt = "le poids minimum du noeud non visités est {} à la position {}"
+print(txt.format(minimum, indice))
+```
+
+    le poids minimum du noeud non visités est 12 à la position 2
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -256,6 +276,18 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 </dl>	
 
 
+<dd><b>Exemple:</b></dd>
+
+```python
+matrice = [[-1, 20, 56, -1], [20, -1, 12, 17], [56, 12, -1, -1], [-1, 17, -1, -1]]
+noeud   = 1
+noeudsVisites = [1, 2, 3]
+indice, minimum = noeudMinimalNonVisitesDeNoeud(matrice, noeud, noeudsVisites)
+txt = "le poids minimum du noeud non visités est {} à la position {}"
+print(txt.format(minimum, indice))
+```
+
+    le poids minimum du noeud non visités est 20 à la position 0
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -275,7 +307,18 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 	<dd><p align='justify'><code> <b>Note:</b> Valide que la matrice est carrée et de valeurs plus grande ou égale à -1. Valide que le nœud initial est une entier positif scalaire. </code></p></dd>
 </dl>	
 
+<dd><b>Exemple:</b></dd>
 
+```python
+matrice = [[-1, 20, 56, -1], [20, -1, 12, 17], [56, 12, -1, -1], [-1, 17, -1, -1]]
+noeud = 1
+noeudsVoisins(matrice, noeud)
+noeuds, poids = noeudsVoisins(matrice, noeud)
+txt = "les noeuds voisin sont {} et leur poids {} rapport à un noeud {}"
+print(txt.format(noeuds, poids, noeud))
+```
+
+    les noeuds voisin sont [0, 2, 3] et leur poids [20, 12, 17] rapport à un noeud 1
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 <dl>
@@ -296,6 +339,20 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 	<dd><p align='justify'><code> <b>Note:</b> Valider que la matrice est carrée et que ses valeurs sont plus grandes ou égales à -1. Valider que le départ et l’arrivée sont 	des entiers positifs scalaires.</code></p></dd>
 	<dd><p align='justify'><code> <b>Avertissement:</b> Faite référence à l’explication de l’algorithme de Dijkstra pour implémenter cette fonction.</code></p></dd>
 </dl>	
+
+<dd><b>Exemple:</b></dd>
+
+```python
+matrice = [[-1, 20, 56, -1], [20, -1, 12, 17], [56, 12, -1, -1], [-1, 17, -1, -1]]
+depart  = 0
+arrive  = 3
+indice, prédécesseurs = dijkstra(matrice, depart, arrive)
+txt = "la distance la plus cours entre un noeud de départ {} et un noeud d’arrivée {} est {} avec les prédécesseurs {}"
+print(txt.format(depart, arrive, indice, prédécesseurs))
+```
+
+    la distance la plus cours entre un noeud de départ 0 et un noeud d’arrivée 3 est 37 avec les prédécesseurs [-1, 0, 1, 1]
+    
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 ### 3.2. Module carte:<a name="carte"></a>
@@ -319,6 +376,17 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 </dl>	
 
 
+<dd><b>Exemple:</b></dd>
+
+```python
+sommet1 = {'no': 1, 'x': 0, 'y': 1, 'altitude': 4}
+sommet2 = {'no': 1, 'x': 2, 'y': 2, 'altitude': 12}
+txt = "la distance euclidienne entre les deux sommets est: {:.2f}"
+print(txt.format(distanceEuclidienne(sommet1, sommet2)))
+```
+
+    la distance euclidienne entre les deux sommets est: 2.24
+    
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 <dl>
@@ -339,7 +407,17 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 <dd><p align='justify'><code> <b>Note:</b> Valide que les deux sommets sont des dictionnaires de sommet.</code></p></dd>
 </dl>	
 
+<dd><b>Exemple:</b></dd>
 
+```python
+sommet1 = {'no': 1, 'x': 0, 'y': 1, 'altitude': 4}
+sommet2 = {'no': 1, 'x': 2, 'y': 2, 'altitude': 12}
+txt = "la distance 3D entre les deux sommets est: {:.2f}"
+print(txt.format(distance3D(sommet1, sommet2)))
+```
+
+    la distance 3D entre les deux sommets est: 8.31
+    
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 <dl>
   <dt>3.2.3. estVoisin(sommet1,  sommet2):</dt>
@@ -359,27 +437,33 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 	<dd><p align='justify'><code> <b>Note: Valide que le  sommet est un dictionnaire de sommet.</b> </code></p></dd>
 </dl>	
 
+<dd><b>Exemple 1:</b></dd> 
+
+```python
+sommet1 = {'no': 1, 'x': 0, 'y': 1, 'altitude': 4}
+sommet2 = {'no': 2, 'x': 1, 'y': 1, 'altitude': 12}
+txt = "les deux noeuds sont ils voisin? {}"
+print(txt.format(estVoisin(sommet1, sommet2)))
+```
+
+    les deux noeuds sont ils voisin? True
+    
+<dd><b>Exemple 2:</b></dd>
+
+```python
+sommet1 = {'no': 1, 'x': 0, 'y': 1, 'altitude': 4}
+sommet2 = {'no': 3, 'x': 2, 'y': 2, 'altitude': 12}
+txt = "les deux noeuds sont ils voisin? {}"
+print(txt.format(estVoisin(sommet1, sommet2)))
+```
+
+    les deux noeuds sont ils voisin? False
 
 
+	
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 <dl>
-  <dt>3.2.3. matriceAdjacence(sommets):</dt>
-  <dd><p align='justify'>Retourne la matrice d’adjacence à partir d’un tableau de sommets. Construis la matrice en regardant chaque voisin possible dans la liste de sommets. Les cases sans lien sont assignées à -1. Consulté la section sur la carte topographique pour plus d’information sur l’implémentation.</p></dd>
-  <dd><b>Paramètres:</b></dd>
-		<ol><ul>
-			<li><b>sommets[1x1 dictionnaire]</b>: Matrice d’adjacence des sommets.</li>
-  	</ul></ol>
-	<dd><b>Renvoie:</b></dd>
-		<ol><ul>
-			<li><b>Matrice[nxn]</b>: la somme des poids entre le nœud de départ et l’arrivé.</li>
-  	</ul></ol>
-<dd><p align='justify'><code> <b>Note:</b> Valide que le  sommet est un dictionnaire de sommet</code></p></dd>
-</dl>	
-
-
--------------------------------------------------------------------------------------------------------------------------------------------------------
-<dl>
-  <dt>3.2.5. carteEnSommets(carteTopographique):</dt>
+  <dt>3.2.4. carteEnSommets(carteTopographique):</dt>
   <dd><p align='justify'>Converti les altitudes de la carte en tableau de sommets. Les sommets sont des dictionnaire avec les cles suivantes:</p></dd>
 	<ol><ul>
 		<li><b>no:</b> Numéro du sommet</li>
@@ -398,7 +482,51 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 	<dd><p align='justify'><code> <b>Note:</b> Valide que la carte topographique est de deux dimensions et de valeurs non négatives.</code></p></dd>
 </dl>	
 
+<dd><b>Exemple:</b></dd>
 
+```python
+carteTopographique = [[12, 13], [23, 21]]
+sommets = carteEnSommets(carteTopographique)
+print("Le disctionnaire des sommets est: \n\t",sommets)
+```
+
+    Le disctionnaire des sommets est: 
+    	 {'no': [0, 1, 2, 3], 'x': [0, 1, 0, 1], 'y': [0, 0, 1, 1], 'altitude': [12, 13, 23, 21]}
+	 
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+<dl>
+  <dt>3.2.5. matriceAdjacence(sommets):</dt>
+  <dd><p align='justify'>Retourne la matrice d’adjacence à partir d’un tableau de sommets. Construis la matrice en regardant chaque voisin possible dans la liste de sommets. Les cases sans lien sont assignées à -1. Consulté la section sur la carte topographique pour plus d’information sur l’implémentation.</p></dd>
+  <dd><b>Paramètres:</b></dd>
+		<ol><ul>
+			<li><b>sommets[1x1 dictionnaire]</b>: Matrice d’adjacence des sommets.</li>
+  	</ul></ol>
+	<dd><b>Renvoie:</b></dd>
+		<ol><ul>
+			<li><b>Matrice[nxn]</b>: la somme des poids entre le nœud de départ et l’arrivé.</li>
+  	</ul></ol>
+<dd><p align='justify'><code> <b>Note:</b> Valide que le  sommet est un dictionnaire de sommet</code></p></dd>
+</dl>	
+
+<dd><b>Exemple:</b></dd>
+
+```python
+carteTopographique = [[12, 13], [23, 21]]
+sommets = carteEnSommets(carteTopographique)
+matAd = matriceAdjacence(sommets)
+txt = "la matrice d'adjacense est: \n\t"
+for i in matAd:
+    for j in i:
+        txt += "{:.3f}\t".format(j)
+    txt += "\n\t"
+print(txt)
+```
+
+    la matrice d'adjacense est: 
+    	-1.000	1.414	11.045	9.110	
+    	1.414	-1.000	10.100	8.062	
+    	11.045	10.100	-1.000	2.236	
+    	9.110	8.062	2.236	-1.000	
 ### 3.3. Module fichier:<a name="fichier"></a> 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 <dl>
@@ -415,6 +543,23 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 <dd><p align='justify'><code> <b>Note:</b> Valide que le nom du fichier est une chaine de caractère.</code></p></dd>
 </dl>	
 
+<dd><b>Exemple:</b></dd>
+
+```python
+nomFichier = 'carte.txt'
+carte = lireCarte(nomFichier)
+print("la carte lu est:")
+for ligne in carte:
+    print("\t", ligne)
+```
+
+    la carte lu est:
+    	 [930, 927, 925, 926, 929]
+    	 [928, 923, 920, 923, 927]
+    	 [930, 926, 919, 925, 928]
+    	 [927, 920, 917, 922, 929]
+    	 [925, 919, 914, 920, 924]
+    	 [924, 918, 913, 917, 919]
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 <dl>
@@ -436,6 +581,26 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 	<dd><p align='justify'><code> <b>Note:</b> Valide que le nom du fichier est une chaine de caractère</code></p></dd>
 </dl>	
 
+<dd><b>Exemple:</b></dd>
+
+```python
+nomFichier = 'mini_carte.txt'
+carte = chargeMatriceDeCarte(nomFichier)
+
+txt = "matrice d'adjacense de la carte lu est: \n\t"
+for i in carte:
+    for j in i:
+        txt += "{:.3f}\t".format(j)
+    txt += "\n\t"
+print(txt)
+```
+
+    matrice d'adjacense de la carte lu est: 
+    	-1.000	3.162	5.099	1.732	
+    	3.162	-1.000	2.449	4.123	
+    	5.099	2.449	-1.000	6.083	
+    	1.732	4.123	6.083	-1.000	
+	
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 ### 3.4. Module interface<a name="interface"></a> 
 
@@ -447,7 +612,6 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 			<li><b>matrice[mxn]</b>: matrice d’adjacence saisit au clavier.</li>
 			<li><b>predecesseur[1xn]</b>: vecteur des nœuds précédent pour se rendre au départ.</li>
   	</ul></ol>
-	<dd><p align='justify'><code> <b>Note:</b> </code></p></dd>
 </dl>	
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -465,6 +629,26 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 	<dd><p align='justify'><code> <b>Note:</b> Valide que le nombre de noeuds est un entier scalaire positif.</code></p></dd>
 </dl>	
 
+<dd><b>Exemple:</b></dd>
+
+```python
+nNoeuds = 5
+matAlea = genereMatriceAleatoire(nNoeuds)
+txt = "la matrice aleatoire est: \n\t"
+for i in matAlea:
+    for j in i:
+        txt += "{}\t".format(j)
+    txt += "\n\t"
+print(txt)
+```
+
+    la matrice aleatoire est: 
+    	22	-1	36	40	42	
+    	-1	-1	-1	46	68	
+    	36	-1	18	79	44	
+    	40	46	79	28	-1	
+    	42	68	44	-1	93	
+	
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -480,6 +664,18 @@ La figure 12 represente l'arbre des appels de fonctions à implémenter.
 	<dd><p align='justify'><code> <b>Note:</b> Valide les prédécesseurs est un vecteur d’entier plus grand ou égal à -1 et différent de zéro. Valide que le nœud de départ et d’arrivée sont des scalaires entiers positifs.</code></p></dd>
 </dl>	
 
+<dd><b>Exemple:</b></dd>
+
+```python
+predecesseurs = [-1, 0, 0, 2, 5, 2]
+depart = 0
+arrive = 4
+afficheChemin(predecesseurs, depart, arrive)
+```
+
+    Le chemin à parcourir est :
+    	 DEBUT : 0  ==> 2  ==> 5  ==>  4 : FIN 
+	 
 -------------------------------------------------------------------------------------------------------------------------------------------------------	
 ### 3.5. Module principal <a name="principale"></a> 
 
