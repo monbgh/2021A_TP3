@@ -686,7 +686,6 @@ afficheChemin(predecesseurs, depart, arrive)
 			<li>Généré aléatoirement une matrice d’adjacence.</li>
 			<li>Lire une carte topographique pour construire la matrice.</li>
   	</ul></ol>
-	<dd><p align='justify'><code> <b>Note:</b> Valide que le choix dans les options est valide.</code></p></dd>
 </dl>	
 
 
