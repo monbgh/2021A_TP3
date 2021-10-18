@@ -605,7 +605,7 @@ print(txt)
 
 <dl>
   <dt>3.4.1. saisirMatrice():</dt>
-  <dd><p align='justify'>Saisit une matrice d’adjacence au clavier. Saisis le nombre de noeuds et le nombre de poids à avoir. Pour chaque poids, saisit le deux noeuds de chaque extrémité et saisit ensuite le poids.</p></dd>
+  <dd><p align='justify'>Saisit une matrice d’adjacence au clavier. Saisis le nombre de noeuds et le nombre de poids à avoir. Pour chaque poids, saisit les deux noeuds de chaque extrémité et saisit ensuite le poids.</p></dd>
 	<dd><b>Renvoie:</b></dd>
 		<ol><ul>
 			<li><b>matrice[mxn]</b>: matrice d’adjacence saisit au clavier.</li>
@@ -613,6 +613,26 @@ print(txt)
   	</ul></ol>
 </dl>	
 
+```python
+matrice = aisirMatrice()
+```
+
+    Donner le nombre de noeuds dans la matrice: 3
+    Donner le nombre de poids dans la matrice: 2
+    
+    	 Saisir le poids  0
+    		 Donner le noeud dextrémité 1: 0
+    		 Donner le noeud dextrémité 2: 1
+    		 Saisir le poids: 10
+    
+    	 Saisir le poids  1
+    		 Donner le noeud dextrémité 1: 2
+    		 Donner le noeud dextrémité 2: 1
+    		 Saisir le poids: 5
+	
+    matrice =  [[-1, 10, -1], [10, -1, 5], [-1, 5, -1]]
+
+    
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 <dl>
   <dt>3.4.2. genereMatriceAleatoire(nNoeuds):</dt>
