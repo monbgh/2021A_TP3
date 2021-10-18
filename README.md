@@ -135,7 +135,7 @@ Dans ce qui suit, nous expliquons les différents concepts.
 La figure 10 montre un exemple de modèle MNT sous forme de matrice de deux dimensions, tel que :
 * Chaque case représente un sommet de la carte.
 * La ligne horizontale représente les abscisses cartésiennes (x) de chaque sommet.
-* La ligne horizontale représente les ordonnées cartésiennes (y) de chaque sommet.
+* La ligne verticale représente les ordonnées cartésiennes (y) de chaque sommet.
 * La valeur au centre de chaque case représente l’altitude.
 * La valeur en bas à droite le numéro de chaque sommet.
 
