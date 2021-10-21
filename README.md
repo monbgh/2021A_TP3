@@ -241,7 +241,7 @@ print(txt.format(minimum, indice))
 	<dd><p align='justify'><code> <b>Note:</b> Valide que la matrice est carrée et que les valeurs sont plus grandes ou égales à -1. Valide que le nœud est un entier positif 			scalaire. Valide que les nœuds visités est un vecteur de nombres entiers positifs. Valide que le nœud fait partie des nœuds visités.</code></p></dd>
 </dl>	
 
-<dd><b>Exemple:</b></dd>
+<dd><b>Exemple 1:</b></dd>
 
 ```python
 matrice = [[-1, 20, 56, -1], [20, -1, 12, 17], [56, 12, -1, -1], [-1, 17, -1, -1]]
@@ -254,6 +254,18 @@ print(txt.format(minimum, indice))
 
     le poids minimum du noeud non visités est 12 à la position 2
 
+<dd><b>Exemple 2:</b></dd>
+
+```python
+matrice = [[-1, 20, 56, -1], [20, -1, 12, 17], [56, 12, -1, -1], [-1, 17, -1, -1]]
+noeud   = 1
+noeudsVisites = [1, 2, 3]
+indice, minimum = noeudMinimalNonVisitesDeNoeud(matrice, noeud, noeudsVisites)
+txt = "le poids minimum du noeud non visité est {} à la position {}"
+print(txt.format(minimum, indice))
+```
+
+    le poids minimum du noeud non visité est 20 à la position 0
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -280,14 +292,13 @@ print(txt.format(minimum, indice))
 
 ```python
 matrice = [[-1, 20, 56, -1], [20, -1, 12, 17], [56, 12, -1, -1], [-1, 17, -1, -1]]
-noeud   = 1
-noeudsVisites = [1, 2, 3]
-indice, minimum = noeudMinimalNonVisitesDeNoeud(matrice, noeud, noeudsVisites)
-txt = "le poids minimum du noeud non visité est {} à la position {}"
-print(txt.format(minimum, indice))
+noeuds_vis = [0,2]
+[depart, arrive] = noeudMinimalNonVisites(matrice, noeuds_vis)
+txt = "le meoud de depard est {} et le noeud d'arriver est {}"
+print(txt.format(depart, arrive))
 ```
 
-    le poids minimum du noeud non visité est 20 à la position 0
+    le neoud de depard est 2 et le noeud d'arriver est 1
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
