@@ -3,4 +3,3 @@
 README.md
 test_assignment.py
 settings/files_to_update.txt
-settings/variables.txt
