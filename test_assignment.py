@@ -7,7 +7,7 @@ import pickle
 import tarfile
 from unittest.mock import patch
 
-from Algo import indiceMinimum, noeudMinimalNonVisitesDeNoeud, noeudsVoisins, dijkstra
+from Algo import indiceMinimum, noeudMinimalNonVisitesDeNoeud, noeudMinimalNonVisites, noeudsVoisins, dijkstra
 from Carte import estVoisin, distanceEuclidienne, distance3D, carteEnSommets
 from Fichier import lireCarte, chargeMatriceDeCarte
 from Interface import saisirMatrice, genereMatriceAleatoire, afficheChemin
@@ -54,49 +54,67 @@ for f in extracted_files:
             
             
 class TestAlgo(unittest.TestCase):
+    
+    
+    matrice      = algo_data_ex['matrice']
+    noeud_1      = algo_data_ex['noeud_1']
+    noeud_2      = algo_data_ex['noeud_2']
+    noeuds_vis_1 = algo_data_ex['noeuds_vis_1']
+    noeuds_vis_2 = algo_data_ex['noeuds_vis_2']
+    noeuds_vis_3 = algo_data_ex['noeuds_vis_3']
+    depart       = algo_data_ex['depart']
+    arrive       = algo_data_ex['arrive']
 
     def testIndiceMinimum(self):
-        tuple_1 = indiceMinimum(algo_data_ex['vec_1'])
-        tuple_2 = (algo_data_ex['indice_1'],algo_data_ex['minimum_1'])
+        vec     = algo_data_ex['vec']
+        tuple_1 = indiceMinimum(vec)
+        tuple_2 = algo_data_ex['res_1']
         self.assertTupleEqual(tuple_1, tuple_2)
     
     def testNoeudMinimalNonVisitesDeNoeudA(self):
-        matrice = algo_data_ex["matrice_2"]
-        noeud   = algo_data_ex["noeud_2"]
-        noeudsVisites = algo_data_ex["noeudsVisites_2"]
+        matrice = algo_data_ex['matrice']
+        noeud   = algo_data_ex['noeud_1']
+        noeudsVisites = algo_data_ex['noeuds_vis_1']
         tuple_1 = noeudMinimalNonVisitesDeNoeud(matrice, noeud, noeudsVisites)
-        tuple_2 = (algo_data_ex['indice_2'],algo_data_ex['minimum_2'])
+        tuple_2 = algo_data_ex['res_2']
         self.assertTupleEqual(tuple_1, tuple_2)
        
     def testNoeudMinimalNonVisitesDeNoeudB(self):
-        matrice = algo_data_ex["matrice_3"]
-        noeud   = algo_data_ex["noeud_3"]
-        noeudsVisites = algo_data_ex["noeudsVisites_3"]
+        matrice = algo_data_ex['matrice']
+        noeud   = algo_data_ex['noeud_1']
+        noeudsVisites = algo_data_ex['noeuds_vis_2']
         tuple_1 = noeudMinimalNonVisitesDeNoeud(matrice, noeud, noeudsVisites)
-        tuple_2 = (algo_data_ex['indice_3'],algo_data_ex['minimum_3'])
+        tuple_2 = algo_data_ex['res_3']
+        self.assertTupleEqual(tuple_1, tuple_2)
+       
+    def testnoeudMinimalNonVisites(self):
+        matrice = algo_data_ex['matrice']
+        noeudsVisites = algo_data_ex['noeuds_vis_3']
+        tuple_1 = noeudMinimalNonVisites(matrice, noeudsVisites)
+        tuple_2 = algo_data_ex['res_4']
         self.assertTupleEqual(tuple_1, tuple_2)
         
            
     def testNoeudsVoisinsA(self):
-        matrice = algo_data_ex["matrice_4"]
-        noeud   = algo_data_ex["noeud_4"]
+        matrice = algo_data_ex['matrice']
+        noeud   = algo_data_ex['noeud_1']
         tuple_1 = noeudsVoisins(matrice, noeud)
-        tuple_2 = (algo_data_ex['noeuds_4'],algo_data_ex['poids_4'])
+        tuple_2 = algo_data_ex['res_5']
         self.assertTupleEqual(tuple_1, tuple_2)  
                                    
     def testNoeudsVoisinsB(self):
-        matrice = algo_data_ex["matrice_5"]
-        noeud   = algo_data_ex["noeud_5"]
+        matrice = algo_data_ex['matrice']
+        noeud   = algo_data_ex["noeud_2"]
         tuple_1 = noeudsVoisins(matrice, noeud)
-        tuple_2 = (algo_data_ex['noeuds_5'],algo_data_ex['poids_5'])
+        tuple_2 = algo_data_ex['res_6']
         self.assertTupleEqual(tuple_1, tuple_2)
         
     def testDijkstra(self):
-        matrice = algo_data_ex["matrice_5"]
-        depart  = algo_data_ex["depart_6"]
-        arrive  = algo_data_ex["arrive_6"]
+        matrice = algo_data_ex['matrice']
+        depart  = algo_data_ex["depart"]
+        arrive  = algo_data_ex["arrive"]
         tuple_1 = dijkstra(matrice, depart, arrive)
-        tuple_2 = (algo_data_ex['indice_6'],algo_data_ex['prédécesseurs_6'])
+        tuple_2 = algo_data_ex['res_7']
         self.assertTupleEqual(tuple_1, tuple_2)
         
         
