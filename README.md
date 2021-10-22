@@ -729,7 +729,7 @@ afficheChemin(predecesseurs, depart, arrive)
 |*noeudMinimalNonVisites*|1|
 |*noeudsVoisins*|1|
 |*dijkstra*|2|
-|*estVoisin*|0.5|
+|*estVoisin*|1|
 |*distanceEuclidienne*|0.5|
 |*distance3D*|1|
 |*matriceAdjacence*|1.5|
@@ -739,7 +739,7 @@ afficheChemin(predecesseurs, depart, arrive)
 |*saisirMatrice*|1.5|
 |*genereMatriceAleatoire*|1.5|
 |*afficheChemin*|1.5|
-|*meilleurCheminDijkstra*|1.5|
+|*meilleurCheminDijkstra*|1|
 
 ## Annexe: Guide et normes de codage <a name="annexe"></a>
 - [Le guide maison](https://github.com/INF1007-Gabarits/Guide-codage-python) de normes supplémentaires à respecter
