@@ -1,10 +1,14 @@
 .github/workflows/assignment_tests.yml
+.github/workflows/assignment grading.yml
 .github/workflows/pylint.yml
+.github/workflows/assignment_deadline.yml
+.github/workflows/verifications.yml
 README.md
 test_assignment.py
+settings/files_to_update.txt
+settings/variables.txt
+settings/test_associations.json
 Expected/Algo.spydata
 Expected/Carte.spydata
 Expected/Fichier.spydata
 Expected/Interface.spydata
-settings/files_to_update.txt
-settings/test_associations.json
