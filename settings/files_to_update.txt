@@ -7,3 +7,4 @@ Expected/Carte.spydata
 Expected/Fichier.spydata
 Expected/Interface.spydata
 settings/files_to_update.txt
+settings/test_associations.json
