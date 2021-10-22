@@ -2,4 +2,8 @@
 .github/workflows/pylint.yml
 README.md
 test_assignment.py
+Expected/Algo.spydata
+Expected/Carte.spydata
+Expected/Fichier.spydata
+Expected/Interface.spydata
 settings/files_to_update.txt
