@@ -2,78 +2,58 @@
   "testIndiceMinimum": {
     "name": "Module Algo: testIndiceMinimum",
     "points": 1},
-    
   "testNoeudMinimalNonVisitesDeNoeudA": {
     "name": "Module Algo: testNoeudMinimalNonVisitesDeNoeudA",
     "points": 0.5},
-    
   "testNoeudMinimalNonVisitesDeNoeudB": {
     "name": "Module Algo: testNoeudMinimalNonVisitesDeNoeudB",
     "points": 0.5},
-    
   "testnoeudMinimalNonVisites": {
     "name": "Module Algo: testnoeudMinimalNonVisites",
     "points": 1},
-    
   "testNoeudsVoisinsA": {
     "name": "Module Algo: testNoeudsVoisinsA",
     "points": 0.5},
-    
   "testNoeudsVoisinsB": {
     "name": "Module Algo: testNoeudsVoisinsB",
     "points": 0.5},
-    
   "testDijkstra": {
     "name": "Module Algo: testDijkstra",
     "points": 2},
-    
   "testEstVoisinA": {
     "name": "Module Carte: testEstVoisinA",
     "points": 0.5},
-    
   "testEstVoisinB": {
     "name": "Module Carte: testEstVoisinB",
     "points": 0.5},
-    
   "testDistanceEuclidienne": {
     "name": "Module Carte: testDistanceEuclidienne",
     "points": 0.5},
-    
   "testDistance3D": {
     "name": "Module Carte: testDistance3D",
     "points": 1},
-    
   "testMatriceAdjacence": {
     "name": "Module Carte: testMatriceAdjacence",
     "points": 1.5},
-    
   "testCarteEnSommets": {
     "name": "Module Carte: testCarteEnSommets",
     "points": 1.5},
-    
   "testLireCarte": {
     "name": "Module Fichier: testLireCarte",
     "points": 1.5},
-    
   "testChargeMatriceDeCarte": {
     "name": "Module Fichier: testChargeMatriceDeCarte",
     "points": 1.5},
-    
   "testSaisirMatrice": {
     "name": "Module Interface: testSaisirMatrice",
     "points": 1.5},
-    
   "testGenereMatriceAleatoireA": {
     "name": "Module Interface: testGenereMatriceAleatoireA",
     "points": 0.5},
-    
   "testGenereMatriceAleatoireB": {
     "name": "Module Interface: testGenereMatriceAleatoireB",
     "points": 1},
-    
   "testAfficheChemin": {
     "name": "Module Interface: testAfficheChemin",
     "points": 1.5},
-
-
 }
