@@ -162,7 +162,7 @@ class TestFichier(unittest.TestCase):
 class TestInterface(unittest.TestCase):
 
     @patch('builtins.input', side_effect=[3, 2, 0, 1, 10, 2, 1, 5])
-    def testSaisirMatriceA(self, mock_inputs):
+    def testSaisirMatrice(self, mock_inputs):
         matrice = [[-1, 10, -1], [10, -1, 5], [-1, 5, -1]]
         self.assertListEqual(saisirMatrice(), matrice)
     
