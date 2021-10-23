@@ -2,6 +2,31 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Polytechnique_Montr%C3%A9al_logo.jpg" />
 </p>
 
+
+## Résultats
+Score | Critères
+--- | ---
+0/2 | Module Algo: testDijkstra
+0/1 | Module Algo: testIndiceMinimum
+0/0 | Module Algo: testNoeudMinimalNonVisitesDeNoeudA
+0/0 | Module Algo: testNoeudMinimalNonVisitesDeNoeudB
+0/0 | Module Algo: testNoeudsVoisinsA
+0/0 | Module Algo: testNoeudsVoisinsB
+0/1 | Module Algo: testnoeudMinimalNonVisites
+0/1 | Module Carte: testCarteEnSommets
+0/1 | Module Carte: testDistance3D
+0/0 | Module Carte: testDistanceEuclidienne
+0/0 | Module Carte: testEstVoisinA
+0/0 | Module Carte: testEstVoisinB
+0/1 | Module Fichier: testChargeMatriceDeCarte
+0/1 | Module Fichier: testLireCarte
+0/1 | Module Interface: testAfficheChemin
+0/0 | Module Interface: testGenereMatriceAleatoireA
+0/1 | Module Interface: testGenereMatriceAleatoireB
+0/1 | Module Interface: testSaisirMatrice
+0/11 | **Total**
+
+[Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
 # TP3: Fonctions, lecture et écriture de fichiers
 - [Directives particulières](#directives)
 - [Énoncé de travail](#enonce)
