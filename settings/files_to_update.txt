@@ -1,5 +1,5 @@
 .github/workflows/assignment_tests.yml
-.github/workflows/assignment grading.yml
+.github/workflows/assignment_grading.yml
 .github/workflows/pylint.yml
 .github/workflows/assignment_deadline.yml
 .github/workflows/verifications.yml
