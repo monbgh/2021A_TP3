@@ -1,0 +1,158 @@
+************* Module Carte
+Carte.py:6:0: C0301: Line too long (110/100) (line-too-long)
+Carte.py:7:0: C0303: Trailing whitespace (trailing-whitespace)
+Carte.py:12:0: C0303: Trailing whitespace (trailing-whitespace)
+Carte.py:18:0: C0303: Trailing whitespace (trailing-whitespace)
+Carte.py:21:30: C0303: Trailing whitespace (trailing-whitespace)
+Carte.py:25:0: C0303: Trailing whitespace (trailing-whitespace)
+Carte.py:27:0: C0303: Trailing whitespace (trailing-whitespace)
+Carte.py:29:0: C0303: Trailing whitespace (trailing-whitespace)
+Carte.py:31:0: C0303: Trailing whitespace (trailing-whitespace)
+Carte.py:33:0: C0303: Trailing whitespace (trailing-whitespace)
+Carte.py:37:0: C0303: Trailing whitespace (trailing-whitespace)
+Carte.py:46:0: C0303: Trailing whitespace (trailing-whitespace)
+Carte.py:51:0: C0303: Trailing whitespace (trailing-whitespace)
+Carte.py:56:0: C0303: Trailing whitespace (trailing-whitespace)
+Carte.py:61:0: C0303: Trailing whitespace (trailing-whitespace)
+Carte.py:65:0: C0303: Trailing whitespace (trailing-whitespace)
+Carte.py:1:0: C0103: Module name "Carte" doesn't conform to snake_case naming style (invalid-name)
+Carte.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Carte.py:5:14: W0621: Redefining name 'sommet1' from outer scope (line 42) (redefined-outer-name)
+Carte.py:5:23: W0621: Redefining name 'sommet2' from outer scope (line 43) (redefined-outer-name)
+Carte.py:5:0: C0103: Function name "estVoisin" doesn't conform to snake_case naming style (invalid-name)
+Carte.py:5:0: C0116: Missing function or method docstring (missing-function-docstring)
+Carte.py:5:14: W0613: Unused argument 'sommet1' (unused-argument)
+Carte.py:5:23: W0613: Unused argument 'sommet2' (unused-argument)
+Carte.py:10:24: W0621: Redefining name 'sommet1' from outer scope (line 42) (redefined-outer-name)
+Carte.py:10:33: W0621: Redefining name 'sommet2' from outer scope (line 43) (redefined-outer-name)
+Carte.py:10:0: C0103: Function name "distanceEuclidienne" doesn't conform to snake_case naming style (invalid-name)
+Carte.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+Carte.py:10:24: W0613: Unused argument 'sommet1' (unused-argument)
+Carte.py:10:33: W0613: Unused argument 'sommet2' (unused-argument)
+Carte.py:15:15: W0621: Redefining name 'sommet1' from outer scope (line 42) (redefined-outer-name)
+Carte.py:15:24: W0621: Redefining name 'sommet2' from outer scope (line 43) (redefined-outer-name)
+Carte.py:15:0: C0103: Function name "distance3D" doesn't conform to snake_case naming style (invalid-name)
+Carte.py:15:0: C0116: Missing function or method docstring (missing-function-docstring)
+Carte.py:15:15: W0613: Unused argument 'sommet1' (unused-argument)
+Carte.py:15:24: W0613: Unused argument 'sommet2' (unused-argument)
+Carte.py:21:21: W0621: Redefining name 'sommets' from outer scope (line 63) (redefined-outer-name)
+Carte.py:21:0: C0103: Function name "matriceAdjacence" doesn't conform to snake_case naming style (invalid-name)
+Carte.py:21:0: C0116: Missing function or method docstring (missing-function-docstring)
+Carte.py:21:21: W0613: Unused argument 'sommets' (unused-argument)
+Carte.py:35:19: W0621: Redefining name 'carte_topo' from outer scope (line 62) (redefined-outer-name)
+Carte.py:35:0: C0103: Function name "carteEnSommets" doesn't conform to snake_case naming style (invalid-name)
+Carte.py:35:0: C0116: Missing function or method docstring (missing-function-docstring)
+Carte.py:35:19: W0613: Unused argument 'carte_topo' (unused-argument)
+Carte.py:44:4: C0103: Constant name "txt" doesn't conform to UPPER_CASE naming style (invalid-name)
+Carte.py:49:4: C0103: Constant name "txt" doesn't conform to UPPER_CASE naming style (invalid-name)
+Carte.py:54:4: C0103: Constant name "txt" doesn't conform to UPPER_CASE naming style (invalid-name)
+Carte.py:59:4: C0103: Constant name "txt" doesn't conform to UPPER_CASE naming style (invalid-name)
+Carte.py:63:4: C0103: Constant name "sommets" doesn't conform to UPPER_CASE naming style (invalid-name)
+Carte.py:66:4: C0103: Constant name "matrice_ad" doesn't conform to UPPER_CASE naming style (invalid-name)
+Carte.py:67:4: C0103: Constant name "txt" doesn't conform to UPPER_CASE naming style (invalid-name)
+Carte.py:68:13: E1133: Non-iterable value matrice_ad is used in an iterating context (not-an-iterable)
+Carte.py:70:19: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+Carte.py:3:0: W0611: Unused import math (unused-import)
+
+
+Report
+======
+38 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |5      |NC         |NC         |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |40     |54.05 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |12     |16.22 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |22     |29.73 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |36     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |17     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|trailing-whitespace        |15          |
++---------------------------+------------+
+|invalid-name               |13          |
++---------------------------+------------+
+|unused-argument            |8           |
++---------------------------+------------+
+|redefined-outer-name       |8           |
++---------------------------+------------+
+|missing-function-docstring |5           |
++---------------------------+------------+
+|unused-import              |1           |
++---------------------------+------------+
+|not-an-iterable            |1           |
++---------------------------+------------+
+|missing-module-docstring   |1           |
++---------------------------+------------+
+|line-too-long              |1           |
++---------------------------+------------+
+|consider-using-f-string    |1           |
++---------------------------+------------+
+
+
+
+
+------------------------------------
+Your code has been rated at -5.26/10
+

@@ -1,0 +1,119 @@
+************* Module Principale
+Principale.py:13:0: C0303: Trailing whitespace (trailing-whitespace)
+Principale.py:14:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+Principale.py:16:0: C0325: Unnecessary parens after 'elif' keyword (superfluous-parens)
+Principale.py:19:0: C0325: Unnecessary parens after 'elif' keyword (superfluous-parens)
+Principale.py:25:0: C0303: Trailing whitespace (trailing-whitespace)
+Principale.py:32:0: C0303: Trailing whitespace (trailing-whitespace)
+Principale.py:1:0: C0103: Module name "Principale" doesn't conform to snake_case naming style (invalid-name)
+Principale.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Principale.py:8:0: C0103: Function name "meilleurCheminDijkstra" doesn't conform to snake_case naming style (invalid-name)
+Principale.py:8:0: C0116: Missing function or method docstring (missing-function-docstring)
+Principale.py:17:8: C0103: Variable name "nbSommets" doesn't conform to snake_case naming style (invalid-name)
+Principale.py:20:8: C0103: Variable name "nomFichier" doesn't conform to snake_case naming style (invalid-name)
+Principale.py:29:4: E0633: Attempting to unpack a non-sequence defined at line 34 of Algo (unpacking-non-sequence)
+
+
+Report
+======
+24 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |1      |NC         |NC         |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    Algo (Principale)
+    Fichier (Principale)
+    Interface (Principale)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |27     |72.97 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |1      |2.70  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |9      |24.32 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |12     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |1      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|invalid-name               |4           |
++---------------------------+------------+
+|trailing-whitespace        |3           |
++---------------------------+------------+
+|superfluous-parens         |3           |
++---------------------------+------------+
+|unpacking-non-sequence     |1           |
++---------------------------+------------+
+|missing-module-docstring   |1           |
++---------------------------+------------+
+|missing-function-docstring |1           |
++---------------------------+------------+
+
+
+
+
+-----------------------------------
+Your code has been rated at 2.92/10
+

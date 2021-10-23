@@ -1,0 +1,179 @@
+************* Module Algo
+Algo.py:3:23: C0303: Trailing whitespace (trailing-whitespace)
+Algo.py:5:0: C0303: Trailing whitespace (trailing-whitespace)
+Algo.py:7:0: C0303: Trailing whitespace (trailing-whitespace)
+Algo.py:12:0: C0303: Trailing whitespace (trailing-whitespace)
+Algo.py:14:0: C0303: Trailing whitespace (trailing-whitespace)
+Algo.py:16:0: C0303: Trailing whitespace (trailing-whitespace)
+Algo.py:23:0: C0303: Trailing whitespace (trailing-whitespace)
+Algo.py:28:0: C0303: Trailing whitespace (trailing-whitespace)
+Algo.py:33:0: C0303: Trailing whitespace (trailing-whitespace)
+Algo.py:42:0: C0303: Trailing whitespace (trailing-whitespace)
+Algo.py:49:0: C0303: Trailing whitespace (trailing-whitespace)
+Algo.py:56:0: C0303: Trailing whitespace (trailing-whitespace)
+Algo.py:63:0: C0303: Trailing whitespace (trailing-whitespace)
+Algo.py:64:0: C0303: Trailing whitespace (trailing-whitespace)
+Algo.py:70:0: C0303: Trailing whitespace (trailing-whitespace)
+Algo.py:75:0: C0301: Line too long (123/100) (line-too-long)
+Algo.py:1:0: C0103: Module name "Algo" doesn't conform to snake_case naming style (invalid-name)
+Algo.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Algo.py:3:18: W0621: Redefining name 'vec' from outer scope (line 38) (redefined-outer-name)
+Algo.py:3:0: C0103: Function name "indiceMinimum" doesn't conform to snake_case naming style (invalid-name)
+Algo.py:3:0: C0116: Missing function or method docstring (missing-function-docstring)
+Algo.py:3:18: W0613: Unused argument 'vec' (unused-argument)
+Algo.py:8:34: W0621: Redefining name 'matrice' from outer scope (line 43) (redefined-outer-name)
+Algo.py:8:43: W0621: Redefining name 'noeud' from outer scope (line 44) (redefined-outer-name)
+Algo.py:8:50: W0621: Redefining name 'noeuds_vis' from outer scope (line 45) (redefined-outer-name)
+Algo.py:8:0: C0103: Function name "noeudMinimalNonVisitesDeNoeud" doesn't conform to snake_case naming style (invalid-name)
+Algo.py:8:0: C0116: Missing function or method docstring (missing-function-docstring)
+Algo.py:8:34: W0613: Unused argument 'matrice' (unused-argument)
+Algo.py:8:43: W0613: Unused argument 'noeud' (unused-argument)
+Algo.py:8:50: W0613: Unused argument 'noeuds_vis' (unused-argument)
+Algo.py:20:27: W0621: Redefining name 'matrice' from outer scope (line 43) (redefined-outer-name)
+Algo.py:20:35: W0621: Redefining name 'noeuds_vis' from outer scope (line 45) (redefined-outer-name)
+Algo.py:20:0: C0103: Function name "noeudMinimalNonVisites" doesn't conform to snake_case naming style (invalid-name)
+Algo.py:20:0: C0116: Missing function or method docstring (missing-function-docstring)
+Algo.py:20:27: W0613: Unused argument 'matrice' (unused-argument)
+Algo.py:20:35: W0613: Unused argument 'noeuds_vis' (unused-argument)
+Algo.py:26:18: W0621: Redefining name 'matrice' from outer scope (line 43) (redefined-outer-name)
+Algo.py:26:27: W0621: Redefining name 'noeud' from outer scope (line 44) (redefined-outer-name)
+Algo.py:26:0: C0103: Function name "noeudsVoisins" doesn't conform to snake_case naming style (invalid-name)
+Algo.py:26:0: C0116: Missing function or method docstring (missing-function-docstring)
+Algo.py:26:18: W0613: Unused argument 'matrice' (unused-argument)
+Algo.py:26:27: W0613: Unused argument 'noeud' (unused-argument)
+Algo.py:31:13: W0621: Redefining name 'matrice' from outer scope (line 43) (redefined-outer-name)
+Algo.py:31:22: W0621: Redefining name 'depart' from outer scope (line 72) (redefined-outer-name)
+Algo.py:31:30: W0621: Redefining name 'arrive' from outer scope (line 73) (redefined-outer-name)
+Algo.py:31:0: C0116: Missing function or method docstring (missing-function-docstring)
+Algo.py:31:13: W0613: Unused argument 'matrice' (unused-argument)
+Algo.py:31:22: W0613: Unused argument 'depart' (unused-argument)
+Algo.py:31:30: W0613: Unused argument 'arrive' (unused-argument)
+Algo.py:39:4: E0633: Attempting to unpack a non-sequence defined at line 6 (unpacking-non-sequence)
+Algo.py:39:4: C0103: Constant name "indice" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:39:12: C0103: Constant name "minimum" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:40:4: C0103: Constant name "txt" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:44:4: C0103: Constant name "noeud" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:46:4: E0633: Attempting to unpack a non-sequence defined at line 17 (unpacking-non-sequence)
+Algo.py:46:4: C0103: Constant name "indice" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:46:12: C0103: Constant name "minimum" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:47:4: C0103: Constant name "txt" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:51:4: C0103: Constant name "noeud" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:53:4: E0633: Attempting to unpack a non-sequence defined at line 17 (unpacking-non-sequence)
+Algo.py:53:4: C0103: Constant name "indice" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:53:12: C0103: Constant name "minimum" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:54:4: C0103: Constant name "txt" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:58:4: C0103: Constant name "noeud" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:60:4: E0633: Attempting to unpack a non-sequence defined at line 29 (unpacking-non-sequence)
+Algo.py:60:4: C0103: Constant name "noeuds" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:60:12: C0103: Constant name "poids" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:61:4: C0103: Constant name "txt" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:66:4: C0103: Constant name "noeud" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:67:4: E0633: Attempting to unpack a non-sequence defined at line 29 (unpacking-non-sequence)
+Algo.py:67:4: C0103: Constant name "noeuds" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:67:12: C0103: Constant name "poids" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:68:4: C0103: Constant name "txt" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:72:4: C0103: Constant name "depart" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:73:4: C0103: Constant name "arrive" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:74:4: E0633: Attempting to unpack a non-sequence defined at line 34 (unpacking-non-sequence)
+Algo.py:74:4: C0103: Constant name "indice" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:74:12: C0103: Constant name "prédécesseurs" doesn't conform to UPPER_CASE naming style (invalid-name)
+Algo.py:75:4: C0103: Constant name "txt" doesn't conform to UPPER_CASE naming style (invalid-name)
+
+
+Report
+======
+44 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |5      |NC         |NC         |0.00        |80.00    |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |46     |58.97 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |11     |14.10 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |21     |26.92 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |51     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |22     |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |6      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|invalid-name               |29          |
++---------------------------+------------+
+|trailing-whitespace        |15          |
++---------------------------+------------+
+|unused-argument            |11          |
++---------------------------+------------+
+|redefined-outer-name       |11          |
++---------------------------+------------+
+|unpacking-non-sequence     |6           |
++---------------------------+------------+
+|missing-function-docstring |5           |
++---------------------------+------------+
+|missing-module-docstring   |1           |
++---------------------------+------------+
+|line-too-long              |1           |
++---------------------------+------------+
+
+
+
+
+-------------------------------------
+Your code has been rated at -13.41/10
+

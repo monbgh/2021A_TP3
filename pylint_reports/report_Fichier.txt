@@ -1,0 +1,136 @@
+************* Module Fichier
+Fichier.py:7:0: C0303: Trailing whitespace (trailing-whitespace)
+Fichier.py:13:0: C0303: Trailing whitespace (trailing-whitespace)
+Fichier.py:15:0: C0303: Trailing whitespace (trailing-whitespace)
+Fichier.py:17:0: C0303: Trailing whitespace (trailing-whitespace)
+Fichier.py:27:0: C0303: Trailing whitespace (trailing-whitespace)
+Fichier.py:30:0: C0303: Trailing whitespace (trailing-whitespace)
+Fichier.py:1:0: C0103: Module name "Fichier" doesn't conform to snake_case naming style (invalid-name)
+Fichier.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+Fichier.py:5:14: W0621: Redefining name 'nom_fichier' from outer scope (line 22) (redefined-outer-name)
+Fichier.py:5:0: C0103: Function name "lireCarte" doesn't conform to snake_case naming style (invalid-name)
+Fichier.py:5:0: C0116: Missing function or method docstring (missing-function-docstring)
+Fichier.py:5:14: W0613: Unused argument 'nom_fichier' (unused-argument)
+Fichier.py:10:25: W0621: Redefining name 'nom_fichier' from outer scope (line 22) (redefined-outer-name)
+Fichier.py:10:0: C0103: Function name "chargeMatriceDeCarte" doesn't conform to snake_case naming style (invalid-name)
+Fichier.py:10:0: C0116: Missing function or method docstring (missing-function-docstring)
+Fichier.py:10:25: W0613: Unused argument 'nom_fichier' (unused-argument)
+Fichier.py:22:4: C0103: Constant name "nom_fichier" doesn't conform to UPPER_CASE naming style (invalid-name)
+Fichier.py:23:4: C0103: Constant name "carte" doesn't conform to UPPER_CASE naming style (invalid-name)
+Fichier.py:25:17: E1133: Non-iterable value carte is used in an iterating context (not-an-iterable)
+Fichier.py:28:8: C0103: Constant name "nom_fichier" doesn't conform to UPPER_CASE naming style (invalid-name)
+Fichier.py:29:4: C0103: Constant name "carte" doesn't conform to UPPER_CASE naming style (invalid-name)
+Fichier.py:31:4: C0103: Constant name "txt" doesn't conform to UPPER_CASE naming style (invalid-name)
+Fichier.py:32:13: E1133: Non-iterable value carte is used in an iterating context (not-an-iterable)
+Fichier.py:34:19: C0209: Formatting a regular string which could be a f-string (consider-using-f-string)
+Fichier.py:3:0: W0611: Unused carteEnSommets imported from Carte (unused-import)
+Fichier.py:3:0: W0611: Unused matriceAdjacence imported from Carte (unused-import)
+
+
+Report
+======
+19 statements analysed.
+
+Statistics by type
+------------------
+
++---------+-------+-----------+-----------+------------+---------+
+|type     |number |old number |difference |%documented |%badname |
++=========+=======+===========+===========+============+=========+
+|module   |1      |NC         |NC         |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+|class    |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|method   |0      |NC         |NC         |0           |0        |
++---------+-------+-----------+-----------+------------+---------+
+|function |2      |NC         |NC         |0.00        |100.00   |
++---------+-------+-----------+-----------+------------+---------+
+
+
+
+External dependencies
+---------------------
+::
+
+    Carte (Fichier)
+
+
+
+Raw metrics
+-----------
+
++----------+-------+------+---------+-----------+
+|type      |number |%     |previous |difference |
++==========+=======+======+=========+===========+
+|code      |21     |55.26 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|docstring |0      |0.00  |NC       |NC         |
++----------+-------+------+---------+-----------+
+|comment   |6      |15.79 |NC       |NC         |
++----------+-------+------+---------+-----------+
+|empty     |11     |28.95 |NC       |NC         |
++----------+-------+------+---------+-----------+
+
+
+
+Duplication
+-----------
+
++-------------------------+------+---------+-----------+
+|                         |now   |previous |difference |
++=========================+======+=========+===========+
+|nb duplicated lines      |0     |NC       |NC         |
++-------------------------+------+---------+-----------+
+|percent duplicated lines |0.000 |NC       |NC         |
++-------------------------+------+---------+-----------+
+
+
+
+Messages by category
+--------------------
+
++-----------+-------+---------+-----------+
+|type       |number |previous |difference |
++===========+=======+=========+===========+
+|convention |18     |NC       |NC         |
++-----------+-------+---------+-----------+
+|refactor   |0      |NC       |NC         |
++-----------+-------+---------+-----------+
+|warning    |6      |NC       |NC         |
++-----------+-------+---------+-----------+
+|error      |2      |NC       |NC         |
++-----------+-------+---------+-----------+
+
+
+
+Messages
+--------
+
++---------------------------+------------+
+|message id                 |occurrences |
++===========================+============+
+|invalid-name               |8           |
++---------------------------+------------+
+|trailing-whitespace        |6           |
++---------------------------+------------+
+|unused-import              |2           |
++---------------------------+------------+
+|unused-argument            |2           |
++---------------------------+------------+
+|redefined-outer-name       |2           |
++---------------------------+------------+
+|not-an-iterable            |2           |
++---------------------------+------------+
+|missing-function-docstring |2           |
++---------------------------+------------+
+|missing-module-docstring   |1           |
++---------------------------+------------+
+|consider-using-f-string    |1           |
++---------------------------+------------+
+
+
+
+
+------------------------------------
+Your code has been rated at -7.89/10
+
