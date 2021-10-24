@@ -5,6 +5,7 @@
 
 
 
+
 ## Résultats
 Score | Critères
 --- | ---
@@ -20,13 +21,14 @@ Score | Critères
 0/1 | Module Carte: testDistanceEuclidienne
 1/1 | Module Carte: testEstVoisinA
 0/1 | Module Carte: testEstVoisinB
+0/3 | Module Carte: testMatriceAdjacence
 0/3 | Module Fichier: testChargeMatriceDeCarte
 0/3 | Module Fichier: testLireCarte
 0/3 | Module Interface: testAfficheChemin
 0/1 | Module Interface: testGenereMatriceAleatoireA
 0/2 | Module Interface: testGenereMatriceAleatoireB
 0/3 | Module Interface: testSaisirMatrice
-1/35 | **Total**
+1/38 | **Total**
 
 [Voir détails](./logs/tests_results.txt) | [Rafraîchir](../../)
 # TP3: Fonctions, lecture et écriture de fichiers
