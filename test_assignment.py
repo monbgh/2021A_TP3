@@ -8,7 +8,7 @@ import tarfile
 from unittest.mock import patch
 
 from Algo import indiceMinimum, noeudMinimalNonVisitesDeNoeud, noeudMinimalNonVisites, noeudsVoisins, dijkstra
-from Carte import estVoisin, distanceEuclidienne, distance3D, carteEnSommets
+from Carte import estVoisin, distanceEuclidienne, distance3D, carteEnSommets, matriceAdjacence
 from Fichier import lireCarte, chargeMatriceDeCarte
 from Interface import saisirMatrice, genereMatriceAleatoire, afficheChemin
 
@@ -54,16 +54,6 @@ for f in extracted_files:
             
             
 class TestAlgo(unittest.TestCase):
-    
-    
-    matrice      = algo_data_ex['matrice']
-    noeud_1      = algo_data_ex['noeud_1']
-    noeud_2      = algo_data_ex['noeud_2']
-    noeuds_vis_1 = algo_data_ex['noeuds_vis_1']
-    noeuds_vis_2 = algo_data_ex['noeuds_vis_2']
-    noeuds_vis_3 = algo_data_ex['noeuds_vis_3']
-    depart       = algo_data_ex['depart']
-    arrive       = algo_data_ex['arrive']
 
     def testIndiceMinimum(self):
         vec     = algo_data_ex['vec']
@@ -134,16 +124,22 @@ class TestCarte(unittest.TestCase):
         sommet1 = carte_data_ex["sommet1"]
         sommet2 = carte_data_ex["sommet4"]
         distance = distanceEuclidienne(sommet1, sommet2)
-        self.assertEqual(distance, carte_data_ex["distance_3"])
+        self.assertEqual(distance, carte_data_ex["dist_eu"])
         
     def testDistance3D(self):
         sommet1 = carte_data_ex["sommet1"]
         sommet2 = carte_data_ex["sommet4"]
         distance = distance3D(sommet1, sommet2)
-        self.assertEqual(distance, carte_data_ex["distance_4"])
+        self.assertEqual(distance, carte_data_ex["dist_3D"])
+        
+    def testMatriceAdjacence(self):
+        sommets = carte_data_ex["sommets"]
+        matrice_1 = matriceAdjacence(sommets)
+        matrice_2 = carte_data_ex["matrice_ad"]
+        self.assertListEqual(matrice_1, matrice_2)
        
     def testCarteEnSommets(self):
-        carteTopographique = carte_data_ex["carteTopographique"]
+        carteTopographique = carte_data_ex["carte_topo"]
         sommets = carteEnSommets(carteTopographique)
         self.assertDictEqual(sommets, carte_data_ex["sommets"])
         
@@ -162,7 +158,7 @@ class TestFichier(unittest.TestCase):
 class TestInterface(unittest.TestCase):
 
     @patch('builtins.input', side_effect=[3, 2, 0, 1, 10, 2, 1, 5])
-    def testSaisirMatrice(self, mock_inputs):
+    def testSaisirMatriceA(self, mock_inputs):
         matrice = [[-1, 10, -1], [10, -1, 5], [-1, 5, -1]]
         self.assertListEqual(saisirMatrice(), matrice)
     
