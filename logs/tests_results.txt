@@ -156,6 +156,6 @@ Traceback (most recent call last):
 AssertionError: First sequence is not a list: Ellipsis
 
 ----------------------------------------------------------------------
-Ran 18 tests in 0.016s
+Ran 18 tests in 0.038s
 
 FAILED (failures=16, errors=1)
