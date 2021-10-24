@@ -1,59 +1,59 @@
 {
   "testIndiceMinimum": {
     "name": "Module Algo: testIndiceMinimum",
-    "points": 1},
+    "points": 2},
   "testNoeudMinimalNonVisitesDeNoeudA": {
     "name": "Module Algo: testNoeudMinimalNonVisitesDeNoeudA",
-    "points": 0,5},
+    "points": 1},
   "testNoeudMinimalNonVisitesDeNoeudB": {
     "name": "Module Algo: testNoeudMinimalNonVisitesDeNoeudB",
-    "points": 0,5},
+    "points": 1},
   "testnoeudMinimalNonVisites": {
     "name": "Module Algo: testnoeudMinimalNonVisites",
-    "points": 1},
+    "points": 2},
   "testNoeudsVoisinsA": {
     "name": "Module Algo: testNoeudsVoisinsA",
-    "points": 0,5},
+    "points": 1},
   "testNoeudsVoisinsB": {
     "name": "Module Algo: testNoeudsVoisinsB",
-    "points": 0,5},
+    "points": 1},
   "testDijkstra": {
     "name": "Module Algo: testDijkstra",
-    "points": 2},
+    "points": 4},
   "testEstVoisinA": {
     "name": "Module Carte: testEstVoisinA",
-    "points": 0,5},
+    "points": 1},
   "testEstVoisinB": {
     "name": "Module Carte: testEstVoisinB",
-    "points": 0,5},
+    "points": 1},
   "testDistanceEuclidienne": {
     "name": "Module Carte: testDistanceEuclidienne",
-    "points": 0,5},
+    "points": 1},
   "testDistance3D": {
     "name": "Module Carte: testDistance3D",
-    "points": 1},
+    "points": 2},
   "testMatriceAdjacence": {
     "name": "Module Carte: testMatriceAdjacence",
-    "points": 1.5},
+    "points": 3},
   "testCarteEnSommets": {
     "name": "Module Carte: testCarteEnSommets",
-    "points": 1.5},
+    "points": 3},
   "testLireCarte": {
     "name": "Module Fichier: testLireCarte",
-    "points": 1.5},
+    "points": 3},
   "testChargeMatriceDeCarte": {
     "name": "Module Fichier: testChargeMatriceDeCarte",
-    "points": 1.5},
+    "points": 3},
   "testSaisirMatrice": {
     "name": "Module Interface: testSaisirMatrice",
-    "points": 1.5},
+    "points": 3},
   "testGenereMatriceAleatoireA": {
     "name": "Module Interface: testGenereMatriceAleatoireA",
-    "points": 0.5},
+    "points": 1},
   "testGenereMatriceAleatoireB": {
     "name": "Module Interface: testGenereMatriceAleatoireB",
-    "points": 1},
+    "points": 2},
   "testAfficheChemin": {
     "name": "Module Interface: testAfficheChemin",
-    "points": 1.5}
+    "points": 3}
 }
