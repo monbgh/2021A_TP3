@@ -3,90 +3,91 @@ test_assignment.py:10:0: C0301: Line too long (110/100) (line-too-long)
 test_assignment.py:36:0: C0303: Trailing whitespace (trailing-whitespace)
 test_assignment.py:54:0: C0303: Trailing whitespace (trailing-whitespace)
 test_assignment.py:55:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:57:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:58:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:73:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:81:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:89:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:96:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:97:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:103:47: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:104:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:111:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:119:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:120:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:63:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:71:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:79:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:86:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:87:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:93:47: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:94:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:101:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:109:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:110:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:112:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:116:52: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:117:0: C0303: Trailing whitespace (trailing-whitespace)
 test_assignment.py:122:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:126:52: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:127:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:132:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:138:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:144:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:149:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:150:37: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:151:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:156:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:168:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:171:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:179:30: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:182:34: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:184:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:191:0: C0303: Trailing whitespace (trailing-whitespace)
-test_assignment.py:192:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:128:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:134:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:140:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:145:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:146:37: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:147:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:152:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:164:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:167:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:175:30: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:178:34: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:180:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:187:0: C0303: Trailing whitespace (trailing-whitespace)
+test_assignment.py:188:0: C0303: Trailing whitespace (trailing-whitespace)
 test_assignment.py:1:0: C0114: Missing module docstring (missing-module-docstring)
 test_assignment.py:16:0: C0103: Constant name "algo_data" doesn't conform to UPPER_CASE naming style (invalid-name)
 test_assignment.py:17:0: C0103: Constant name "carte_data" doesn't conform to UPPER_CASE naming style (invalid-name)
 test_assignment.py:18:0: C0103: Constant name "fichier_data" doesn't conform to UPPER_CASE naming style (invalid-name)
 test_assignment.py:19:0: C0103: Constant name "interface_data" doesn't conform to UPPER_CASE naming style (invalid-name)
 test_assignment.py:56:0: C0115: Missing class docstring (missing-class-docstring)
-test_assignment.py:68:4: C0103: Method name "testIndiceMinimum" doesn't conform to snake_case naming style (invalid-name)
-test_assignment.py:68:4: C0116: Missing function or method docstring (missing-function-docstring)
-test_assignment.py:74:4: C0103: Method name "testNoeudMinimalNonVisitesDeNoeudA" doesn't conform to snake_case naming style (invalid-name)
-test_assignment.py:74:4: C0116: Missing function or method docstring (missing-function-docstring)
-test_assignment.py:77:8: C0103: Variable name "noeudsVisites" doesn't conform to snake_case naming style (invalid-name)
-test_assignment.py:82:4: C0103: Method name "testNoeudMinimalNonVisitesDeNoeudB" doesn't conform to snake_case naming style (invalid-name)
-test_assignment.py:82:4: C0116: Missing function or method docstring (missing-function-docstring)
-test_assignment.py:85:8: C0103: Variable name "noeudsVisites" doesn't conform to snake_case naming style (invalid-name)
-test_assignment.py:90:4: C0103: Method name "testnoeudMinimalNonVisites" doesn't conform to snake_case naming style (invalid-name)
-test_assignment.py:90:4: C0116: Missing function or method docstring (missing-function-docstring)
-test_assignment.py:92:8: C0103: Variable name "noeudsVisites" doesn't conform to snake_case naming style (invalid-name)
-test_assignment.py:98:4: C0103: Method name "testNoeudsVoisinsA" doesn't conform to snake_case naming style (invalid-name)
-test_assignment.py:98:4: C0116: Missing function or method docstring (missing-function-docstring)
-test_assignment.py:105:4: C0103: Method name "testNoeudsVoisinsB" doesn't conform to snake_case naming style (invalid-name)
-test_assignment.py:105:4: C0116: Missing function or method docstring (missing-function-docstring)
-test_assignment.py:112:4: C0103: Method name "testDijkstra" doesn't conform to snake_case naming style (invalid-name)
-test_assignment.py:112:4: C0116: Missing function or method docstring (missing-function-docstring)
-test_assignment.py:121:0: C0115: Missing class docstring (missing-class-docstring)
-test_assignment.py:123:4: C0103: Method name "testEstVoisinA" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:58:4: C0103: Method name "testIndiceMinimum" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:58:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:64:4: C0103: Method name "testNoeudMinimalNonVisitesDeNoeudA" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:64:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:67:8: C0103: Variable name "noeudsVisites" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:72:4: C0103: Method name "testNoeudMinimalNonVisitesDeNoeudB" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:72:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:75:8: C0103: Variable name "noeudsVisites" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:80:4: C0103: Method name "testnoeudMinimalNonVisites" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:80:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:82:8: C0103: Variable name "noeudsVisites" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:88:4: C0103: Method name "testNoeudsVoisinsA" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:88:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:95:4: C0103: Method name "testNoeudsVoisinsB" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:95:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:102:4: C0103: Method name "testDijkstra" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:102:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:111:0: C0115: Missing class docstring (missing-class-docstring)
+test_assignment.py:113:4: C0103: Method name "testEstVoisinA" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:113:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:118:4: C0103: Method name "testEstVoisinB" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:118:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:123:4: C0103: Method name "testDistanceEuclidienne" doesn't conform to snake_case naming style (invalid-name)
 test_assignment.py:123:4: C0116: Missing function or method docstring (missing-function-docstring)
-test_assignment.py:128:4: C0103: Method name "testEstVoisinB" doesn't conform to snake_case naming style (invalid-name)
-test_assignment.py:128:4: C0116: Missing function or method docstring (missing-function-docstring)
-test_assignment.py:133:4: C0103: Method name "testDistanceEuclidienne" doesn't conform to snake_case naming style (invalid-name)
-test_assignment.py:133:4: C0116: Missing function or method docstring (missing-function-docstring)
-test_assignment.py:139:4: C0103: Method name "testDistance3D" doesn't conform to snake_case naming style (invalid-name)
-test_assignment.py:139:4: C0116: Missing function or method docstring (missing-function-docstring)
-test_assignment.py:145:4: C0103: Method name "testCarteEnSommets" doesn't conform to snake_case naming style (invalid-name)
-test_assignment.py:145:4: C0116: Missing function or method docstring (missing-function-docstring)
-test_assignment.py:146:8: C0103: Variable name "carteTopographique" doesn't conform to snake_case naming style (invalid-name)
-test_assignment.py:150:0: C0115: Missing class docstring (missing-class-docstring)
-test_assignment.py:152:4: C0103: Method name "testLireCarte" doesn't conform to snake_case naming style (invalid-name)
-test_assignment.py:152:4: C0116: Missing function or method docstring (missing-function-docstring)
-test_assignment.py:153:8: C0103: Variable name "nomFichier" doesn't conform to snake_case naming style (invalid-name)
-test_assignment.py:157:4: C0103: Method name "testChargeMatriceDeCarte" doesn't conform to snake_case naming style (invalid-name)
-test_assignment.py:157:4: C0116: Missing function or method docstring (missing-function-docstring)
-test_assignment.py:158:8: C0103: Variable name "nomFichier" doesn't conform to snake_case naming style (invalid-name)
-test_assignment.py:162:0: C0115: Missing class docstring (missing-class-docstring)
-test_assignment.py:165:4: C0103: Method name "testSaisirMatrice" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:129:4: C0103: Method name "testDistance3D" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:129:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:135:4: C0103: Method name "testMatriceAdjacence" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:135:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:141:4: C0103: Method name "testCarteEnSommets" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:141:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:142:8: C0103: Variable name "carteTopographique" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:146:0: C0115: Missing class docstring (missing-class-docstring)
+test_assignment.py:148:4: C0103: Method name "testLireCarte" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:148:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:149:8: C0103: Variable name "nomFichier" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:153:4: C0103: Method name "testChargeMatriceDeCarte" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:153:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:154:8: C0103: Variable name "nomFichier" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:158:0: C0115: Missing class docstring (missing-class-docstring)
+test_assignment.py:161:4: C0103: Method name "testSaisirMatrice" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:161:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:161:32: W0613: Unused argument 'mock_inputs' (unused-argument)
+test_assignment.py:165:4: C0103: Method name "testGenereMatriceAleatoireA" doesn't conform to snake_case naming style (invalid-name)
 test_assignment.py:165:4: C0116: Missing function or method docstring (missing-function-docstring)
-test_assignment.py:165:32: W0613: Unused argument 'mock_inputs' (unused-argument)
-test_assignment.py:169:4: C0103: Method name "testGenereMatriceAleatoireA" doesn't conform to snake_case naming style (invalid-name)
-test_assignment.py:169:4: C0116: Missing function or method docstring (missing-function-docstring)
-test_assignment.py:172:4: C0103: Method name "testGenereMatriceAleatoireB" doesn't conform to snake_case naming style (invalid-name)
-test_assignment.py:172:4: C0116: Missing function or method docstring (missing-function-docstring)
-test_assignment.py:181:59: E1136: Value 'matrice' is unsubscriptable (unsubscriptable-object)
-test_assignment.py:181:76: E1136: Value 'matrice' is unsubscriptable (unsubscriptable-object)
-test_assignment.py:185:4: C0103: Method name "testAfficheChemin" doesn't conform to snake_case naming style (invalid-name)
-test_assignment.py:185:4: C0116: Missing function or method docstring (missing-function-docstring)
-test_assignment.py:196:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
+test_assignment.py:168:4: C0103: Method name "testGenereMatriceAleatoireB" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:168:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:177:59: E1136: Value 'matrice' is unsubscriptable (unsubscriptable-object)
+test_assignment.py:177:76: E1136: Value 'matrice' is unsubscriptable (unsubscriptable-object)
+test_assignment.py:181:4: C0103: Method name "testAfficheChemin" doesn't conform to snake_case naming style (invalid-name)
+test_assignment.py:181:4: C0116: Missing function or method docstring (missing-function-docstring)
+test_assignment.py:192:9: W1514: Using open without explicitly specifying an encoding (unspecified-encoding)
 test_assignment.py:21:11: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
 test_assignment.py:22:12: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
 test_assignment.py:23:14: R1732: Consider using 'with' for resource-allocating operations (consider-using-with)
@@ -95,7 +96,7 @@ test_assignment.py:24:16: R1732: Consider using 'with' for resource-allocating o
 
 Report
 ======
-158 statements analysed.
+155 statements analysed.
 
 Statistics by type
 ------------------
@@ -107,7 +108,7 @@ Statistics by type
 +---------+-------+-----------+-----------+------------+---------+
 |class    |4      |NC         |NC         |0.00        |0.00     |
 +---------+-------+-----------+-----------+------------+---------+
-|method   |18     |NC         |NC         |0.00        |100.00   |
+|method   |19     |NC         |NC         |0.00        |100.00   |
 +---------+-------+-----------+-----------+------------+---------+
 |function |0      |NC         |NC         |0           |0        |
 +---------+-------+-----------+-----------+------------+---------+
@@ -131,13 +132,13 @@ Raw metrics
 +----------+-------+------+---------+-----------+
 |type      |number |%     |previous |difference |
 +==========+=======+======+=========+===========+
-|code      |161    |80.10 |NC       |NC         |
+|code      |158    |80.20 |NC       |NC         |
 +----------+-------+------+---------+-----------+
 |docstring |0      |0.00  |NC       |NC         |
 +----------+-------+------+---------+-----------+
-|comment   |1      |0.50  |NC       |NC         |
+|comment   |1      |0.51  |NC       |NC         |
 +----------+-------+------+---------+-----------+
-|empty     |39     |19.40 |NC       |NC         |
+|empty     |38     |19.29 |NC       |NC         |
 +----------+-------+------+---------+-----------+
 
 
@@ -161,7 +162,7 @@ Messages by category
 +-----------+-------+---------+-----------+
 |type       |number |previous |difference |
 +===========+=======+=========+===========+
-|convention |84     |NC       |NC         |
+|convention |85     |NC       |NC         |
 +-----------+-------+---------+-----------+
 |refactor   |4      |NC       |NC         |
 +-----------+-------+---------+-----------+
@@ -178,11 +179,11 @@ Messages
 +---------------------------+------------+
 |message id                 |occurrences |
 +===========================+============+
-|trailing-whitespace        |32          |
+|trailing-whitespace        |31          |
 +---------------------------+------------+
-|invalid-name               |28          |
+|invalid-name               |29          |
 +---------------------------+------------+
-|missing-function-docstring |18          |
+|missing-function-docstring |19          |
 +---------------------------+------------+
 |missing-class-docstring    |4           |
 +---------------------------+------------+
@@ -203,5 +204,5 @@ Messages
 
 
 -----------------------------------
-Your code has been rated at 3.67/10
+Your code has been rated at 3.48/10
 
