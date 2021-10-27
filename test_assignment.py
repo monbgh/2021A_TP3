@@ -170,11 +170,12 @@ class TestInterface(unittest.TestCase):
         matrice = genereMatriceAleatoire(nb_noeud)
         result = True
         for i, ligne in enumerate(matrice):
-            print(ligne)
             if len(ligne) != nb_noeud:
                 result = False         
             for j, elem in enumerate(ligne):
-                if elem < -1 or elem == 0 or elem > 100 or matrice[i][j] != matrice[j][i]:
+                if (i == j) and elem != -1:
+                    result = False
+                elif elem < -1 or elem == 0 or elem > 100 or matrice[i][j] != matrice[j][i]:
                     result = False            
         self.assertTrue(result)
     
