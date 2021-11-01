@@ -3,9 +3,10 @@
 from Carte import carteEnSommets, matriceAdjacence
 
 def lireCarte(nom_fichier):
-    #To do: Lit le contenue du fichier à partir du nom de fichier reçu en paramètre
-    
-    return ...
+    #To do: Lit le contenue du fichier à partir du nom de fichier reçu e n paramètre
+    lire = open("nom_fichier.txt", "r")
+    contenu_e=lire.readlines()
+    return(i)
 
 def chargeMatriceDeCarte(nom_fichier):
     #To do: Retourne la matrice d’adjacence correspondant au fichier lut

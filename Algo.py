@@ -1,9 +1,18 @@
 # -*- coding: utf-8 -*-
-
+import copy
 def indiceMinimum(vec): 
     #To do: Trouve l’indice et la valeur minimum dans un vecteur
-    
-    return ...
+    new_list = copy.deepcopy(vec)
+    while -1 in new_list:
+        new_list.remove(-1)
+    if new_list == list():
+        minimum = -1
+        indice = -1
+    else:
+        indice = min(new_list)
+        minimum = vec.index(indice)
+
+    return (minimum, indice)
     
 def noeudMinimalNonVisitesDeNoeud(matrice, noeud, noeuds_vis):
     #To do: Cherche le nœud non visité ayant le poids minimum autour d’un nœud spécifique

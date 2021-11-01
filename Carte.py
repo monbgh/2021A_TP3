@@ -4,19 +4,23 @@ import math
 
 def estVoisin(sommet1, sommet2):
     #To do: Valide que deux sommets sont voisins d’après leur emplacement en x et y sur la carte topographique
-    
-    return ...
+    if (sommet2['x'] - sommet1['x']) == 0 and (sommet2['y'] - sommet1['y']) == 1 or \
+            (sommet2['x'] - sommet1['x']) == 1 and (sommet2['y'] - sommet1['y']) == 0 or\
+            (sommet2['x'] - sommet1['x']) == 1 and (sommet2['y'] - sommet1['y']) == 1:
+        return True
+    else:
+        return False
 
 def distanceEuclidienne(sommet1, sommet2):
     #To do: Calcule la distance euclidienne entre deux sommets
     
-    return ...
+    return (math.sqrt(((sommet1['x']-sommet2['x'])**2)+(sommet1['y']-sommet2['y'])**2))
 
 def distance3D(sommet1, sommet2):
     #To do: Calcule la distance 3D entre deux sommets
     #To do: utiliser la fonction distanceEuclidienne(sommet1, sommet2)
     
-    return ...
+    return (math.sqrt(((distanceEuclidienne(sommet1, sommet2))**2)+((sommet2['altitude']-sommet1['altitude'])**2)))
 
 def matriceAdjacence(sommets): 
     #To do: Retourne la matrice d’adjacence à partir d’un tableau de sommets

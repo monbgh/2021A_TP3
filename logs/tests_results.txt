@@ -1,60 +1,38 @@
 testDijkstra (__main__.TestAlgo) ... FAIL
-testIndiceMinimum (__main__.TestAlgo) ... FAIL
+testIndiceMinimum (__main__.TestAlgo) ... ok
 testNoeudMinimalNonVisitesDeNoeudA (__main__.TestAlgo) ... FAIL
 testNoeudMinimalNonVisitesDeNoeudB (__main__.TestAlgo) ... FAIL
 testNoeudsVoisinsA (__main__.TestAlgo) ... FAIL
 testNoeudsVoisinsB (__main__.TestAlgo) ... FAIL
 testnoeudMinimalNonVisites (__main__.TestAlgo) ... FAIL
-testCarteEnSommets (__main__.TestCarte) ... ERROR
-testDistance3D (__main__.TestCarte) ... ERROR
-testDistanceEuclidienne (__main__.TestCarte) ... ERROR
+testCarteEnSommets (__main__.TestCarte) ... FAIL
+testDistance3D (__main__.TestCarte) ... ok
+testDistanceEuclidienne (__main__.TestCarte) ... ok
 testEstVoisinA (__main__.TestCarte) ... ok
-testEstVoisinB (__main__.TestCarte) ... FAIL
-testMatriceAdjacence (__main__.TestCarte) ... ERROR
+testEstVoisinB (__main__.TestCarte) ... ok
+testMatriceAdjacence (__main__.TestCarte) ... FAIL
 testChargeMatriceDeCarte (__main__.TestFichier) ... FAIL
-testLireCarte (__main__.TestFichier) ... FAIL
+testLireCarte (__main__.TestFichier) ... ERROR
 testAfficheChemin (__main__.TestInterface) ... FAIL
 testGenereMatriceAleatoireA (__main__.TestInterface) ... FAIL
 testGenereMatriceAleatoireB (__main__.TestInterface) ... ERROR
 testSaisirMatrice (__main__.TestInterface) ... FAIL
 
 ======================================================================
-ERROR: testCarteEnSommets (__main__.TestCarte)
+ERROR: testLireCarte (__main__.TestFichier)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_assignment.py", line 142, in testCarteEnSommets
-    carteTopographique = carte_data_ex["carte_topo"]
-KeyError: 'carte_topo'
-
-======================================================================
-ERROR: testDistance3D (__main__.TestCarte)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_assignment.py", line 133, in testDistance3D
-    self.assertEqual(distance, carte_data_ex["dist_3D"])
-KeyError: 'dist_3D'
-
-======================================================================
-ERROR: testDistanceEuclidienne (__main__.TestCarte)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_assignment.py", line 127, in testDistanceEuclidienne
-    self.assertEqual(distance, carte_data_ex["dist_eu"])
-KeyError: 'dist_eu'
-
-======================================================================
-ERROR: testMatriceAdjacence (__main__.TestCarte)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_assignment.py", line 138, in testMatriceAdjacence
-    matrice_2 = carte_data_ex["matrice_ad"]
-KeyError: 'matrice_ad'
+  File "c:\Users\bough\Documents\GitHub\2021A_TP3\test_assignment.py", line 150, in testLireCarte
+    carte = lireCarte(nomFichier)
+  File "c:\Users\bough\Documents\GitHub\2021A_TP3\Fichier.py", line 7, in lireCarte
+    lire = open("carte.txt", "r")
+FileNotFoundError: [Errno 2] No such file or directory: 'carte.txt'
 
 ======================================================================
 ERROR: testGenereMatriceAleatoireB (__main__.TestInterface)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_assignment.py", line 172, in testGenereMatriceAleatoireB
+  File "c:\Users\bough\Documents\GitHub\2021A_TP3\test_assignment.py", line 172, in testGenereMatriceAleatoireB
     for i, ligne in enumerate(matrice):
 TypeError: 'ellipsis' object is not iterable
 
@@ -62,15 +40,7 @@ TypeError: 'ellipsis' object is not iterable
 FAIL: testDijkstra (__main__.TestAlgo)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_assignment.py", line 108, in testDijkstra
-    self.assertTupleEqual(tuple_1, tuple_2)
-AssertionError: First sequence is not a tuple: Ellipsis
-
-======================================================================
-FAIL: testIndiceMinimum (__main__.TestAlgo)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_assignment.py", line 62, in testIndiceMinimum
+  File "c:\Users\bough\Documents\GitHub\2021A_TP3\test_assignment.py", line 108, in testDijkstra
     self.assertTupleEqual(tuple_1, tuple_2)
 AssertionError: First sequence is not a tuple: Ellipsis
 
@@ -78,7 +48,7 @@ AssertionError: First sequence is not a tuple: Ellipsis
 FAIL: testNoeudMinimalNonVisitesDeNoeudA (__main__.TestAlgo)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_assignment.py", line 70, in testNoeudMinimalNonVisitesDeNoeudA
+  File "c:\Users\bough\Documents\GitHub\2021A_TP3\test_assignment.py", line 70, in testNoeudMinimalNonVisitesDeNoeudA
     self.assertTupleEqual(tuple_1, tuple_2)
 AssertionError: First sequence is not a tuple: Ellipsis
 
@@ -86,7 +56,7 @@ AssertionError: First sequence is not a tuple: Ellipsis
 FAIL: testNoeudMinimalNonVisitesDeNoeudB (__main__.TestAlgo)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_assignment.py", line 78, in testNoeudMinimalNonVisitesDeNoeudB
+  File "c:\Users\bough\Documents\GitHub\2021A_TP3\test_assignment.py", line 78, in testNoeudMinimalNonVisitesDeNoeudB
     self.assertTupleEqual(tuple_1, tuple_2)
 AssertionError: First sequence is not a tuple: Ellipsis
 
@@ -94,7 +64,7 @@ AssertionError: First sequence is not a tuple: Ellipsis
 FAIL: testNoeudsVoisinsA (__main__.TestAlgo)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_assignment.py", line 93, in testNoeudsVoisinsA
+  File "c:\Users\bough\Documents\GitHub\2021A_TP3\test_assignment.py", line 93, in testNoeudsVoisinsA
     self.assertTupleEqual(tuple_1, tuple_2)
 AssertionError: First sequence is not a tuple: Ellipsis
 
@@ -102,7 +72,7 @@ AssertionError: First sequence is not a tuple: Ellipsis
 FAIL: testNoeudsVoisinsB (__main__.TestAlgo)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_assignment.py", line 100, in testNoeudsVoisinsB
+  File "c:\Users\bough\Documents\GitHub\2021A_TP3\test_assignment.py", line 100, in testNoeudsVoisinsB
     self.assertTupleEqual(tuple_1, tuple_2)
 AssertionError: First sequence is not a tuple: Ellipsis
 
@@ -110,39 +80,39 @@ AssertionError: First sequence is not a tuple: Ellipsis
 FAIL: testnoeudMinimalNonVisites (__main__.TestAlgo)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_assignment.py", line 85, in testnoeudMinimalNonVisites
+  File "c:\Users\bough\Documents\GitHub\2021A_TP3\test_assignment.py", line 85, in testnoeudMinimalNonVisites
     self.assertTupleEqual(tuple_1, tuple_2)
 AssertionError: First sequence is not a tuple: Ellipsis
 
 ======================================================================
-FAIL: testEstVoisinB (__main__.TestCarte)
+FAIL: testCarteEnSommets (__main__.TestCarte)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_assignment.py", line 121, in testEstVoisinB
-    self.assertFalse(estVoisin(sommet1, sommet2))
-AssertionError: Ellipsis is not false
+  File "c:\Users\bough\Documents\GitHub\2021A_TP3\test_assignment.py", line 144, in testCarteEnSommets
+    self.assertDictEqual(sommets, carte_data_ex["sommets"])
+AssertionError: Ellipsis is not an instance of <class 'dict'> : First argument is not a dictionary
+
+======================================================================
+FAIL: testMatriceAdjacence (__main__.TestCarte)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "c:\Users\bough\Documents\GitHub\2021A_TP3\test_assignment.py", line 139, in testMatriceAdjacence
+    self.assertListEqual(matrice_1, matrice_2)
+AssertionError: First sequence is not a list: Ellipsis
 
 ======================================================================
 FAIL: testChargeMatriceDeCarte (__main__.TestFichier)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_assignment.py", line 156, in testChargeMatriceDeCarte
+  File "c:\Users\bough\Documents\GitHub\2021A_TP3\test_assignment.py", line 156, in testChargeMatriceDeCarte
     self.assertListEqual(carte, fichier_data_ex["carte_2"])
-AssertionError: First sequence is not a list: Ellipsis
-
-======================================================================
-FAIL: testLireCarte (__main__.TestFichier)
-----------------------------------------------------------------------
-Traceback (most recent call last):
-  File "test_assignment.py", line 151, in testLireCarte
-    self.assertListEqual(carte, fichier_data_ex["carte_1"])
 AssertionError: First sequence is not a list: Ellipsis
 
 ======================================================================
 FAIL: testAfficheChemin (__main__.TestInterface)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_assignment.py", line 186, in testAfficheChemin
+  File "c:\Users\bough\Documents\GitHub\2021A_TP3\test_assignment.py", line 187, in testAfficheChemin
     self.assertMultiLineEqual(interface_data_ex["txt"], txt)
 AssertionError: Ellipsis is not an instance of <class 'str'> : Second argument is not a string
 
@@ -150,7 +120,7 @@ AssertionError: Ellipsis is not an instance of <class 'str'> : Second argument i
 FAIL: testGenereMatriceAleatoireA (__main__.TestInterface)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "test_assignment.py", line 166, in testGenereMatriceAleatoireA
+  File "c:\Users\bough\Documents\GitHub\2021A_TP3\test_assignment.py", line 166, in testGenereMatriceAleatoireA
     self.assertTrue(isinstance(genereMatriceAleatoire(5), list))
 AssertionError: False is not true
 
@@ -158,13 +128,13 @@ AssertionError: False is not true
 FAIL: testSaisirMatrice (__main__.TestInterface)
 ----------------------------------------------------------------------
 Traceback (most recent call last):
-  File "/usr/lib/python3.8/unittest/mock.py", line 1325, in patched
+  File "C:\Users\bough\AppData\Local\Programs\Python\Python39\lib\unittest\mock.py", line 1337, in patched
     return func(*newargs, **newkeywargs)
-  File "test_assignment.py", line 163, in testSaisirMatrice
+  File "c:\Users\bough\Documents\GitHub\2021A_TP3\test_assignment.py", line 163, in testSaisirMatrice
     self.assertListEqual(saisirMatrice(), matrice)
 AssertionError: First sequence is not a list: Ellipsis
 
 ----------------------------------------------------------------------
-Ran 19 tests in 0.032s
+Ran 19 tests in 0.005s
 
-FAILED (failures=13, errors=5)
+FAILED (failures=12, errors=2)
